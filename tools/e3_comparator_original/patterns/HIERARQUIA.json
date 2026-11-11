@@ -1,0 +1,4408 @@
+{
+ "no_no": [
+  {
+   "pai": "Pasta",
+   "filho": "Screen",
+   "qtd": 180,
+   "fontes": 27
+  },
+  {
+   "pai": "<projeto>",
+   "filho": "XControl",
+   "qtd": 127,
+   "fontes": 3
+  },
+  {
+   "pai": "Pasta",
+   "filho": "Pasta",
+   "qtd": 106,
+   "fontes": 29
+  },
+  {
+   "pai": "<projeto>",
+   "filho": "XFolder",
+   "qtd": 68,
+   "fontes": 3
+  },
+  {
+   "pai": "<projeto>",
+   "filho": "Recurso",
+   "qtd": 63,
+   "fontes": 1
+  },
+  {
+   "pai": "Pasta",
+   "filho": "IODriver",
+   "qtd": 57,
+   "fontes": 29
+  },
+  {
+   "pai": "Pasta",
+   "filho": "DataServer",
+   "qtd": 53,
+   "fontes": 27
+  },
+  {
+   "pai": "<projeto>",
+   "filho": "Pasta",
+   "qtd": 32,
+   "fontes": 29
+  },
+  {
+   "pai": "<projeto>",
+   "filho": "XObject",
+   "qtd": 31,
+   "fontes": 4
+  },
+  {
+   "pai": "Pasta",
+   "filho": "Recurso",
+   "qtd": 13,
+   "fontes": 1
+  },
+  {
+   "pai": "Pasta",
+   "filho": "DBServer",
+   "qtd": 3,
+   "fontes": 1
+  },
+  {
+   "pai": "Pasta",
+   "filho": "Hist",
+   "qtd": 3,
+   "fontes": 2
+  },
+  {
+   "pai": "Pasta",
+   "filho": "Frame",
+   "qtd": 3,
+   "fontes": 1
+  },
+  {
+   "pai": "Pasta",
+   "filho": "UaDriver",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "Pasta",
+   "filho": "AlarmServer",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Pasta",
+   "filho": "Viewer",
+   "qtd": 1,
+   "fontes": 1
+  }
+ ],
+ "raiz_no": [
+  {
+   "classe": "Screen",
+   "nos": 180,
+   "fontes": 27
+  },
+  {
+   "classe": "XControl",
+   "nos": 127,
+   "fontes": 3
+  },
+  {
+   "classe": "XFolder",
+   "nos": 68,
+   "fontes": 3
+  },
+  {
+   "classe": "IODriver",
+   "nos": 57,
+   "fontes": 29
+  },
+  {
+   "classe": "DataServer",
+   "nos": 53,
+   "fontes": 27
+  },
+  {
+   "classe": "XObject",
+   "nos": 31,
+   "fontes": 4
+  },
+  {
+   "classe": "DBServer",
+   "nos": 3,
+   "fontes": 1
+  },
+  {
+   "classe": "Hist",
+   "nos": 3,
+   "fontes": 2
+  },
+  {
+   "classe": "Frame",
+   "nos": 3,
+   "fontes": 1
+  },
+  {
+   "classe": "UaDriver",
+   "nos": 2,
+   "fontes": 1
+  },
+  {
+   "classe": "AlarmServer",
+   "nos": 1,
+   "fontes": 1
+  },
+  {
+   "classe": "Viewer",
+   "nos": 1,
+   "fontes": 1
+  }
+ ],
+ "pai_filho": [
+  {
+   "pai": "IOFolder",
+   "filho": "IOTag",
+   "qtd": 140206,
+   "fontes": 29
+  },
+  {
+   "pai": "fGrupoAnalogicas",
+   "filho": "fMedidaAnalogica",
+   "qtd": 114032,
+   "fontes": 25
+  },
+  {
+   "pai": "fMedidaDigital",
+   "filho": "oMedidaDigitalBit",
+   "qtd": 46880,
+   "fontes": 23
+  },
+  {
+   "pai": "fDados",
+   "filho": "fGrupoAnalogicas",
+   "qtd": 37969,
+   "fontes": 25
+  },
+  {
+   "pai": "fString",
+   "filho": "fDados",
+   "qtd": 30376,
+   "fontes": 25
+  },
+  {
+   "pai": "fGrupoDigitais",
+   "filho": "fMedidaDigital",
+   "qtd": 27541,
+   "fontes": 25
+  },
+  {
+   "pai": "fMedidaDigital",
+   "filho": "DigitalAlarmSource",
+   "qtd": 25883,
+   "fontes": 25
+  },
+  {
+   "pai": "fMedidaDigital",
+   "filho": "fMedidaDigital",
+   "qtd": 23669,
+   "fontes": 23
+  },
+  {
+   "pai": "fMedidaAnalogica",
+   "filho": "DigitalAlarmSource",
+   "qtd": 23623,
+   "fontes": 24
+  },
+  {
+   "pai": "IOFolder",
+   "filho": "IOFolder",
+   "qtd": 20551,
+   "fontes": 29
+  },
+  {
+   "pai": "fStringBox",
+   "filho": "fString",
+   "qtd": 18454,
+   "fontes": 4
+  },
+  {
+   "pai": "fGrupoStrings",
+   "filho": "fString",
+   "qtd": 11922,
+   "fontes": 21
+  },
+  {
+   "pai": "fDados",
+   "filho": "fGrupoDigitais",
+   "qtd": 8219,
+   "fontes": 25
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cEquipArrayLayout",
+   "qtd": 5668,
+   "fontes": 21
+  },
+  {
+   "pai": "fGrupoTrackers",
+   "filho": "fTracker",
+   "qtd": 5428,
+   "fontes": 19
+  },
+  {
+   "pai": "fTracker",
+   "filho": "fArray",
+   "qtd": 5428,
+   "fontes": 19
+  },
+  {
+   "pai": "fTracker",
+   "filho": "fDados",
+   "qtd": 5428,
+   "fontes": 19
+  },
+  {
+   "pai": "fMedidaDigital",
+   "filho": "oStatusTrackers",
+   "qtd": 4119,
+   "fontes": 18
+  },
+  {
+   "pai": "fMedidaDigital",
+   "filho": "DiscreteAlarmSource",
+   "qtd": 3504,
+   "fontes": 26
+  },
+  {
+   "pai": "fComando",
+   "filho": "DigitalAlarmSource",
+   "qtd": 2218,
+   "fontes": 25
+  },
+  {
+   "pai": "fGrupoComandos",
+   "filho": "fComando",
+   "qtd": 2119,
+   "fontes": 25
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cObjElectricConnection0se",
+   "qtd": 1456,
+   "fontes": 19
+  },
+  {
+   "pai": "Screen",
+   "filho": "cObjElectricConnection0se",
+   "qtd": 1410,
+   "fontes": 26
+  },
+  {
+   "pai": "fMPPT",
+   "filho": "fStringBox",
+   "qtd": 897,
+   "fontes": 4
+  },
+  {
+   "pai": "fStringBox",
+   "filho": "fDados",
+   "qtd": 897,
+   "fontes": 4
+  },
+  {
+   "pai": "fMedidaAnalogica",
+   "filho": "fMedidaAnalogica",
+   "qtd": 888,
+   "fontes": 4
+  },
+  {
+   "pai": "fDados",
+   "filho": "fGrupoComandos",
+   "qtd": 876,
+   "fontes": 25
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cEquipFiltro",
+   "qtd": 678,
+   "fontes": 21
+  },
+  {
+   "pai": "fInversor",
+   "filho": "fDados",
+   "qtd": 655,
+   "fontes": 25
+  },
+  {
+   "pai": "Screen",
+   "filho": "cEquipInversor",
+   "qtd": 622,
+   "fontes": 23
+  },
+  {
+   "pai": "Screen",
+   "filho": "cEquipString",
+   "qtd": 622,
+   "fontes": 23
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "DrawGroup",
+   "qtd": 607,
+   "fontes": 23
+  },
+  {
+   "pai": "fInversor",
+   "filho": "fGrupoStrings",
+   "qtd": 594,
+   "fontes": 21
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cObjMedidaAnalogicaPaineis0se",
+   "qtd": 490,
+   "fontes": 2
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cObjMedidaDigitalPaineis0se",
+   "qtd": 490,
+   "fontes": 2
+  },
+  {
+   "pai": "fGrupoDigitais0se",
+   "filho": "fMedidaDigital0se",
+   "qtd": 485,
+   "fontes": 2
+  },
+  {
+   "pai": "fDisjuntor0se",
+   "filho": "fDados",
+   "qtd": 472,
+   "fontes": 24
+  },
+  {
+   "pai": "fChave0se",
+   "filho": "fDados",
+   "qtd": 462,
+   "fontes": 24
+  },
+  {
+   "pai": "fgrupoChaves",
+   "filho": "fChave0se",
+   "qtd": 452,
+   "fontes": 25
+  },
+  {
+   "pai": "fMedidaDigital0se",
+   "filho": "DigitalAlarmSource",
+   "qtd": 449,
+   "fontes": 2
+  },
+  {
+   "pai": "Screen",
+   "filho": "cEquipDisjuntor0se",
+   "qtd": 438,
+   "fontes": 25
+  },
+  {
+   "pai": "Screen",
+   "filho": "cEquipChave0se",
+   "qtd": 432,
+   "fontes": 26
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "DrawString",
+   "qtd": 400,
+   "fontes": 23
+  },
+  {
+   "pai": "fStringBox",
+   "filho": "fArray",
+   "qtd": 387,
+   "fontes": 4
+  },
+  {
+   "pai": "fGrupoAnalogicas0se",
+   "filho": "fMedidaAnalogica0se",
+   "qtd": 377,
+   "fontes": 2
+  },
+  {
+   "pai": "Screen",
+   "filho": "DrawGroup",
+   "qtd": 373,
+   "fontes": 25
+  },
+  {
+   "pai": "Screen",
+   "filho": "DrawString",
+   "qtd": 363,
+   "fontes": 27
+  },
+  {
+   "pai": "fGrupoDigitais0se",
+   "filho": "fMedidaDigital",
+   "qtd": 362,
+   "fontes": 5
+  },
+  {
+   "pai": "fGrupoDigitais",
+   "filho": "oMedidaDigitalCalculada",
+   "qtd": 359,
+   "fontes": 24
+  },
+  {
+   "pai": "IOBlock",
+   "filho": "IOBlockElement",
+   "qtd": 344,
+   "fontes": 2
+  },
+  {
+   "pai": "fCampoSolar",
+   "filho": "fDisjuntor0se",
+   "qtd": 300,
+   "fontes": 1
+  },
+  {
+   "pai": "fCMB",
+   "filho": "fInversor",
+   "qtd": 298,
+   "fontes": 20
+  },
+  {
+   "pai": "fCampoSolar",
+   "filho": "fInversor",
+   "qtd": 296,
+   "fontes": 1
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "DrawLine",
+   "qtd": 275,
+   "fontes": 10
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cObjMedidaDigitalPaineis",
+   "qtd": 267,
+   "fontes": 1
+  },
+  {
+   "pai": "IODriver",
+   "filho": "IOFolder",
+   "qtd": 266,
+   "fontes": 29
+  },
+  {
+   "pai": "fComando",
+   "filho": "fComando",
+   "qtd": 200,
+   "fontes": 1
+  },
+  {
+   "pai": "fMedidaAnalogica",
+   "filho": "DiscreteAlarmSource",
+   "qtd": 187,
+   "fontes": 4
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cTabularTRK",
+   "qtd": 184,
+   "fontes": 1
+  },
+  {
+   "pai": "<raiz do nó>",
+   "filho": "Screen",
+   "qtd": 180,
+   "fontes": 27
+  },
+  {
+   "pai": "fGrupoDigitais",
+   "filho": "oMedidaDigitalBit",
+   "qtd": 170,
+   "fontes": 1
+  },
+  {
+   "pai": "fDados",
+   "filho": "InternalTag",
+   "qtd": 166,
+   "fontes": 1
+  },
+  {
+   "pai": "DataFolder",
+   "filho": "oConfigNavegacaoScreens",
+   "qtd": 157,
+   "fontes": 26
+  },
+  {
+   "pai": "fMultimedidor",
+   "filho": "fDados",
+   "qtd": 155,
+   "fontes": 23
+  },
+  {
+   "pai": "XControl",
+   "filho": "DrawString",
+   "qtd": 135,
+   "fontes": 3
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cObjBotaoHighPerformance0se",
+   "qtd": 134,
+   "fontes": 2
+  },
+  {
+   "pai": "fDados0se",
+   "filho": "oCalcSum",
+   "qtd": 128,
+   "fontes": 20
+  },
+  {
+   "pai": "<raiz do nó>",
+   "filho": "XControl",
+   "qtd": 127,
+   "fontes": 3
+  },
+  {
+   "pai": "fDisjuntor0se",
+   "filho": "fGrupoAnalogicas",
+   "qtd": 120,
+   "fontes": 1
+  },
+  {
+   "pai": "fGrupoDigitais",
+   "filho": "oMedidaDigitalCalculada0se",
+   "qtd": 116,
+   "fontes": 21
+  },
+  {
+   "pai": "fDados",
+   "filho": "oCalcSum",
+   "qtd": 115,
+   "fontes": 6
+  },
+  {
+   "pai": "fEletrocentro",
+   "filho": "fMultimedidor",
+   "qtd": 112,
+   "fontes": 5
+  },
+  {
+   "pai": "XControl",
+   "filho": "DrawGroup",
+   "qtd": 112,
+   "fontes": 3
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cObjMedidaAnalogicaPaineis",
+   "qtd": 112,
+   "fontes": 1
+  },
+  {
+   "pai": "fGrupoAnalogicas",
+   "filho": "oMedidaAnalogicaCalculada0se",
+   "qtd": 103,
+   "fontes": 22
+  },
+  {
+   "pai": "IODriver",
+   "filho": "IOTag",
+   "qtd": 100,
+   "fontes": 16
+  },
+  {
+   "pai": "HistFieldsCollection",
+   "filho": "HistField",
+   "qtd": 98,
+   "fontes": 2
+  },
+  {
+   "pai": "Screen",
+   "filho": "cEquipArrayLayout",
+   "qtd": 98,
+   "fontes": 2
+  },
+  {
+   "pai": "Screen",
+   "filho": "cEquipTrafo0se",
+   "qtd": 96,
+   "fontes": 26
+  },
+  {
+   "pai": "fDados",
+   "filho": "oCalcResumoInversores",
+   "qtd": 96,
+   "fontes": 25
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "DrawConnector",
+   "qtd": 94,
+   "fontes": 6
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "DrawTank",
+   "qtd": 93,
+   "fontes": 12
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cObjCardFundo",
+   "qtd": 91,
+   "fontes": 5
+  },
+  {
+   "pai": "Screen",
+   "filho": "cObjComConnection",
+   "qtd": 90,
+   "fontes": 2
+  },
+  {
+   "pai": "DataFolder",
+   "filho": "InternalTag",
+   "qtd": 89,
+   "fontes": 25
+  },
+  {
+   "pai": "Screen",
+   "filho": "DrawLine",
+   "qtd": 88,
+   "fontes": 26
+  },
+  {
+   "pai": "IOFolder",
+   "filho": "IOBlock",
+   "qtd": 86,
+   "fontes": 2
+  },
+  {
+   "pai": "DataServer",
+   "filho": "DataFolder",
+   "qtd": 83,
+   "fontes": 27
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cObjBotaoHighPerformance",
+   "qtd": 81,
+   "fontes": 3
+  },
+  {
+   "pai": "Screen",
+   "filho": "cObjCardFundo",
+   "qtd": 76,
+   "fontes": 13
+  },
+  {
+   "pai": "XObject",
+   "filho": "InternalTag",
+   "qtd": 70,
+   "fontes": 3
+  },
+  {
+   "pai": "fDados",
+   "filho": "fGrupoDigitais0se",
+   "qtd": 69,
+   "fontes": 4
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cEquipNCU",
+   "qtd": 68,
+   "fontes": 5
+  },
+  {
+   "pai": "<raiz do nó>",
+   "filho": "XFolder",
+   "qtd": 68,
+   "fontes": 3
+  },
+  {
+   "pai": "fDados0se",
+   "filho": "fGrupoDigitais0se",
+   "qtd": 64,
+   "fontes": 5
+  },
+  {
+   "pai": "fEletrocentro",
+   "filho": "fInversor",
+   "qtd": 61,
+   "fontes": 4
+  },
+  {
+   "pai": "fInversor",
+   "filho": "fCampoSolar",
+   "qtd": 61,
+   "fontes": 4
+  },
+  {
+   "pai": "fCampoSolar",
+   "filho": "fMPPT",
+   "qtd": 61,
+   "fontes": 4
+  },
+  {
+   "pai": "fNCU",
+   "filho": "fGrupoTrackers",
+   "qtd": 58,
+   "fontes": 19
+  },
+  {
+   "pai": "fNCU",
+   "filho": "fDados",
+   "qtd": 58,
+   "fontes": 19
+  },
+  {
+   "pai": "<raiz do nó>",
+   "filho": "IODriver",
+   "qtd": 57,
+   "fontes": 29
+  },
+  {
+   "pai": "fEMET",
+   "filho": "fDados",
+   "qtd": 57,
+   "fontes": 25
+  },
+  {
+   "pai": "Screen",
+   "filho": "cObjBotaoHighPerformance0se",
+   "qtd": 56,
+   "fontes": 7
+  },
+  {
+   "pai": "Screen",
+   "filho": "cEquipMultimedidor",
+   "qtd": 56,
+   "fontes": 22
+  },
+  {
+   "pai": "fTransformador0se",
+   "filho": "fDados",
+   "qtd": 56,
+   "fontes": 5
+  },
+  {
+   "pai": "Screen",
+   "filho": "DrawTank",
+   "qtd": 55,
+   "fontes": 20
+  },
+  {
+   "pai": "fGrupoComandos0se",
+   "filho": "fComando0se",
+   "qtd": 55,
+   "fontes": 1
+  },
+  {
+   "pai": "DataFolder",
+   "filho": "oDashConfigGauge",
+   "qtd": 54,
+   "fontes": 26
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "DrawCircle",
+   "qtd": 54,
+   "fontes": 18
+  },
+  {
+   "pai": "<raiz do nó>",
+   "filho": "DataServer",
+   "qtd": 53,
+   "fontes": 27
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "DrawRect",
+   "qtd": 53,
+   "fontes": 18
+  },
+  {
+   "pai": "fDados0se",
+   "filho": "fGrupoAnalogicas0se",
+   "qtd": 53,
+   "fontes": 3
+  },
+  {
+   "pai": "fEletrocentro",
+   "filho": "fTransformador0se",
+   "qtd": 51,
+   "fontes": 5
+  },
+  {
+   "pai": "Screen",
+   "filho": "cObjCardFundo0se",
+   "qtd": 50,
+   "fontes": 27
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cEquipIED0se",
+   "qtd": 50,
+   "fontes": 1
+  },
+  {
+   "pai": "UaFolder",
+   "filho": "UaTag",
+   "qtd": 48,
+   "fontes": 1
+  },
+  {
+   "pai": "fEletrocentro",
+   "filho": "fDisjuntor0se",
+   "qtd": 47,
+   "fontes": 3
+  },
+  {
+   "pai": "fDados0se",
+   "filho": "fGrupoComandos0se",
+   "qtd": 46,
+   "fontes": 2
+  },
+  {
+   "pai": "fQGBT",
+   "filho": "fDisjuntor0se",
+   "qtd": 46,
+   "fontes": 20
+  },
+  {
+   "pai": "XControl",
+   "filho": "cObjCardFundo",
+   "qtd": 46,
+   "fontes": 2
+  },
+  {
+   "pai": "fCMB",
+   "filho": "fDados",
+   "qtd": 45,
+   "fontes": 21
+  },
+  {
+   "pai": "fDisjuntor0se",
+   "filho": "DigitalAlarmSource",
+   "qtd": 44,
+   "fontes": 7
+  },
+  {
+   "pai": "fSubestacao0se",
+   "filho": "fDisjuntor0se",
+   "qtd": 43,
+   "fontes": 20
+  },
+  {
+   "pai": "fIED0se",
+   "filho": "fDados",
+   "qtd": 42,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cDetalhesUsina",
+   "qtd": 41,
+   "fontes": 25
+  },
+  {
+   "pai": "fUsinaPV",
+   "filho": "fSubestacao0se",
+   "qtd": 41,
+   "fontes": 24
+  },
+  {
+   "pai": "fEletrocentro",
+   "filho": "fDados",
+   "qtd": 41,
+   "fontes": 5
+  },
+  {
+   "pai": "fEletrocentro",
+   "filho": "fNCU",
+   "qtd": 41,
+   "fontes": 5
+  },
+  {
+   "pai": "fDados",
+   "filho": "fIED0se",
+   "qtd": 41,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "E3Alarm",
+   "qtd": 40,
+   "fontes": 26
+  },
+  {
+   "pai": "fElectricPanel0se",
+   "filho": "fChave0se",
+   "qtd": 40,
+   "fontes": 3
+  },
+  {
+   "pai": "Screen",
+   "filho": "cPainelMedidasTela",
+   "qtd": 40,
+   "fontes": 20
+  },
+  {
+   "pai": "fGrupoAnalogicas0se",
+   "filho": "fMedidaAnalogica",
+   "qtd": 40,
+   "fontes": 2
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cEquipChave0se",
+   "qtd": 40,
+   "fontes": 4
+  },
+  {
+   "pai": "fDados0se",
+   "filho": "DigitalAlarmSource",
+   "qtd": 40,
+   "fontes": 20
+  },
+  {
+   "pai": "XControl",
+   "filho": "DrawLine",
+   "qtd": 37,
+   "fontes": 2
+  },
+  {
+   "pai": "fEletrocentro",
+   "filho": "fEMET",
+   "qtd": 36,
+   "fontes": 5
+  },
+  {
+   "pai": "Screen",
+   "filho": "cEquipCMB",
+   "qtd": 36,
+   "fontes": 20
+  },
+  {
+   "pai": "fCampoSolar",
+   "filho": "fQGBT",
+   "qtd": 36,
+   "fontes": 20
+  },
+  {
+   "pai": "fQGBT",
+   "filho": "fCMB",
+   "qtd": 36,
+   "fontes": 20
+  },
+  {
+   "pai": "Screen",
+   "filho": "DrawRect",
+   "qtd": 35,
+   "fontes": 14
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cObjCardFundo0se",
+   "qtd": 35,
+   "fontes": 3
+  },
+  {
+   "pai": "fSubestacao0se",
+   "filho": "fTransformador0se",
+   "qtd": 34,
+   "fontes": 21
+  },
+  {
+   "pai": "fSubestacao0se",
+   "filho": "fCampoSolar",
+   "qtd": 34,
+   "fontes": 19
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cEquipInversor",
+   "qtd": 34,
+   "fontes": 3
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cEquipDisjuntor0se",
+   "qtd": 33,
+   "fontes": 2
+  },
+  {
+   "pai": "fChave0se",
+   "filho": "DigitalAlarmSource",
+   "qtd": 33,
+   "fontes": 3
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cEquipString",
+   "qtd": 33,
+   "fontes": 2
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cObjMedidaAnalogicaTela",
+   "qtd": 33,
+   "fontes": 1
+  },
+  {
+   "pai": "fDados",
+   "filho": "fDados",
+   "qtd": 32,
+   "fontes": 6
+  },
+  {
+   "pai": "fQGBT",
+   "filho": "fgrupoChaves",
+   "qtd": 32,
+   "fontes": 17
+  },
+  {
+   "pai": "XControl",
+   "filho": "cObjBotaoHighPerformance",
+   "qtd": 32,
+   "fontes": 2
+  },
+  {
+   "pai": "fSubestacao0se",
+   "filho": "fElectricPanel0se",
+   "qtd": 31,
+   "fontes": 3
+  },
+  {
+   "pai": "fMedidaDigital0se",
+   "filho": "DiscreteAlarmSource",
+   "qtd": 31,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cObjAnalogScreen0se",
+   "qtd": 31,
+   "fontes": 3
+  },
+  {
+   "pai": "<raiz do nó>",
+   "filho": "XObject",
+   "qtd": 31,
+   "fontes": 4
+  },
+  {
+   "pai": "Screen",
+   "filho": "cObjBotaoHighPerformance",
+   "qtd": 30,
+   "fontes": 3
+  },
+  {
+   "pai": "fSubestacao0se",
+   "filho": "fgrupoChaves",
+   "qtd": 29,
+   "fontes": 12
+  },
+  {
+   "pai": "fEMET",
+   "filho": "DigitalAlarmSource",
+   "qtd": 29,
+   "fontes": 21
+  },
+  {
+   "pai": "fDados0se",
+   "filho": "InternalTag",
+   "qtd": 29,
+   "fontes": 2
+  },
+  {
+   "pai": "Screen",
+   "filho": "E3Chart",
+   "qtd": 28,
+   "fontes": 1
+  },
+  {
+   "pai": "XControl",
+   "filho": "DrawConnector",
+   "qtd": 28,
+   "fontes": 2
+  },
+  {
+   "pai": "Screen",
+   "filho": "cObjHeader0se",
+   "qtd": 27,
+   "fontes": 27
+  },
+  {
+   "pai": "Screen",
+   "filho": "cObjTelaAlarmes",
+   "qtd": 26,
+   "fontes": 26
+  },
+  {
+   "pai": "Screen",
+   "filho": "cObjHist",
+   "qtd": 26,
+   "fontes": 26
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cTabularResumoUsinas",
+   "qtd": 26,
+   "fontes": 1
+  },
+  {
+   "pai": "UaFolder",
+   "filho": "UaFolder",
+   "qtd": 26,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cDashCardGeralUsinas",
+   "qtd": 25,
+   "fontes": 1
+  },
+  {
+   "pai": "DataServer",
+   "filho": "oDashConfigCardGeralUsinas",
+   "qtd": 25,
+   "fontes": 25
+  },
+  {
+   "pai": "DataFolder",
+   "filho": "oConfigHeader",
+   "qtd": 25,
+   "fontes": 25
+  },
+  {
+   "pai": "DataServer",
+   "filho": "fUsinaPV",
+   "qtd": 25,
+   "fontes": 25
+  },
+  {
+   "pai": "fElectricPanel0se",
+   "filho": "fDisjuntor0se",
+   "qtd": 25,
+   "fontes": 3
+  },
+  {
+   "pai": "fUsinaPV",
+   "filho": "fDados",
+   "qtd": 25,
+   "fontes": 25
+  },
+  {
+   "pai": "Screen",
+   "filho": "cIconeIED",
+   "qtd": 25,
+   "fontes": 2
+  },
+  {
+   "pai": "UaTag",
+   "filho": "DigitalAlarmSource",
+   "qtd": 24,
+   "fontes": 1
+  },
+  {
+   "pai": "UaTag",
+   "filho": "DiscreteAlarmSource",
+   "qtd": 24,
+   "fontes": 1
+  },
+  {
+   "pai": "fIED0se",
+   "filho": "fDados0se",
+   "qtd": 24,
+   "fontes": 4
+  },
+  {
+   "pai": "fDisjuntor0se",
+   "filho": "fDados0se",
+   "qtd": 24,
+   "fontes": 2
+  },
+  {
+   "pai": "fMultimedidor",
+   "filho": "DigitalAlarmSource",
+   "qtd": 24,
+   "fontes": 16
+  },
+  {
+   "pai": "fCMB",
+   "filho": "DigitalAlarmSource",
+   "qtd": 24,
+   "fontes": 18
+  },
+  {
+   "pai": "fGrupoDigitais0se",
+   "filho": "oMedidaDigitalCalculada0se",
+   "qtd": 23,
+   "fontes": 5
+  },
+  {
+   "pai": "fDados",
+   "filho": "oMedidaAnalogicaCalculada",
+   "qtd": 23,
+   "fontes": 5
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "DrawArc",
+   "qtd": 23,
+   "fontes": 4
+  },
+  {
+   "pai": "fElectricPanel0se",
+   "filho": "fIED0se",
+   "qtd": 23,
+   "fontes": 3
+  },
+  {
+   "pai": "fSubestacao0se",
+   "filho": "fMultimedidor",
+   "qtd": 23,
+   "fontes": 15
+  },
+  {
+   "pai": "XControl",
+   "filho": "DrawArc",
+   "qtd": 23,
+   "fontes": 2
+  },
+  {
+   "pai": "Screen",
+   "filho": "cEquipGerador0se",
+   "qtd": 22,
+   "fontes": 5
+  },
+  {
+   "pai": "Screen",
+   "filho": "cEquipPPC",
+   "qtd": 22,
+   "fontes": 5
+  },
+  {
+   "pai": "Screen",
+   "filho": "cPainelResumedMeteo",
+   "qtd": 22,
+   "fontes": 4
+  },
+  {
+   "pai": "Screen",
+   "filho": "cObjGround0se",
+   "qtd": 22,
+   "fontes": 2
+  },
+  {
+   "pai": "fDados0se",
+   "filho": "oMedidaAnalogicaCalculada0se",
+   "qtd": 22,
+   "fontes": 13
+  },
+  {
+   "pai": "XControl",
+   "filho": "cEquipStringPainel",
+   "qtd": 22,
+   "fontes": 1
+  },
+  {
+   "pai": "fDados",
+   "filho": "fMedidaAnalogica",
+   "qtd": 21,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "DrawConnector",
+   "qtd": 20,
+   "fontes": 3
+  },
+  {
+   "pai": "Screen",
+   "filho": "cEquipIED0se",
+   "qtd": 20,
+   "fontes": 2
+  },
+  {
+   "pai": "fEletrocentro",
+   "filho": "fCampoSolar",
+   "qtd": 20,
+   "fontes": 1
+  },
+  {
+   "pai": "fCampoSolar",
+   "filho": "fDados",
+   "qtd": 20,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cEquipMeteorologica",
+   "qtd": 20,
+   "fontes": 20
+  },
+  {
+   "pai": "fUsinaPV",
+   "filho": "fEMET",
+   "qtd": 20,
+   "fontes": 20
+  },
+  {
+   "pai": "fDados",
+   "filho": "fDados0se",
+   "qtd": 20,
+   "fontes": 20
+  },
+  {
+   "pai": "fDados0se",
+   "filho": "oMedidaAnalogicaCalculada",
+   "qtd": 20,
+   "fontes": 20
+  },
+  {
+   "pai": "Screen",
+   "filho": "cEquipFiltro",
+   "qtd": 20,
+   "fontes": 2
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cEquipStringLayout",
+   "qtd": 20,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cEquipCUB0se",
+   "qtd": 19,
+   "fontes": 2
+  },
+  {
+   "pai": "fDados",
+   "filho": "DigitalAlarmSource",
+   "qtd": 18,
+   "fontes": 5
+  },
+  {
+   "pai": "fEletrocentro",
+   "filho": "fgrupoChaves",
+   "qtd": 18,
+   "fontes": 2
+  },
+  {
+   "pai": "XControl",
+   "filho": "cObjCardFundo0se",
+   "qtd": 18,
+   "fontes": 2
+  },
+  {
+   "pai": "XControl",
+   "filho": "CheckBox",
+   "qtd": 18,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cEquipNCU",
+   "qtd": 17,
+   "fontes": 14
+  },
+  {
+   "pai": "XControl",
+   "filho": "DrawTank",
+   "qtd": 17,
+   "fontes": 2
+  },
+  {
+   "pai": "fPPC",
+   "filho": "fMultimedidor",
+   "qtd": 16,
+   "fontes": 4
+  },
+  {
+   "pai": "fPPC",
+   "filho": "fDados",
+   "qtd": 16,
+   "fontes": 5
+  },
+  {
+   "pai": "fSubestacao0se",
+   "filho": "fEletrocentro",
+   "qtd": 16,
+   "fontes": 2
+  },
+  {
+   "pai": "fChave0se",
+   "filho": "fDados0se",
+   "qtd": 16,
+   "fontes": 1
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cObjComConnection",
+   "qtd": 16,
+   "fontes": 1
+  },
+  {
+   "pai": "fUsinaPV",
+   "filho": "fgrupoChaves",
+   "qtd": 16,
+   "fontes": 16
+  },
+  {
+   "pai": "fCircuito0se",
+   "filho": "fEletrocentro",
+   "qtd": 15,
+   "fontes": 2
+  },
+  {
+   "pai": "fCircuito0se",
+   "filho": "fDisjuntor0se",
+   "qtd": 14,
+   "fontes": 3
+  },
+  {
+   "pai": "fDados0se",
+   "filho": "fDados0se",
+   "qtd": 14,
+   "fontes": 2
+  },
+  {
+   "pai": "Screen",
+   "filho": "DrawCircle",
+   "qtd": 13,
+   "fontes": 9
+  },
+  {
+   "pai": "fCampoSolar",
+   "filho": "fNCU",
+   "qtd": 13,
+   "fontes": 11
+  },
+  {
+   "pai": "XControl",
+   "filho": "cObjNotaOperativa",
+   "qtd": 13,
+   "fontes": 2
+  },
+  {
+   "pai": "XControl",
+   "filho": "DrawCircle",
+   "qtd": 12,
+   "fontes": 2
+  },
+  {
+   "pai": "fIED0se",
+   "filho": "fChave0se",
+   "qtd": 11,
+   "fontes": 1
+  },
+  {
+   "pai": "FrameSet",
+   "filho": "FrameSet",
+   "qtd": 10,
+   "fontes": 1
+  },
+  {
+   "pai": "fUsinaPV",
+   "filho": "fEletrocentro",
+   "qtd": 10,
+   "fontes": 1
+  },
+  {
+   "pai": "fQGBT",
+   "filho": "fStringBox",
+   "qtd": 10,
+   "fontes": 4
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cObjSelect",
+   "qtd": 10,
+   "fontes": 1
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cPainelResumedMeteo",
+   "qtd": 9,
+   "fontes": 1
+  },
+  {
+   "pai": "fDados",
+   "filho": "fCMB",
+   "qtd": 9,
+   "fontes": 1
+  },
+  {
+   "pai": "fIED0se",
+   "filho": "fDisjuntor0se",
+   "qtd": 9,
+   "fontes": 1
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "CheckBox",
+   "qtd": 9,
+   "fontes": 2
+  },
+  {
+   "pai": "Screen",
+   "filho": "cDashGauge",
+   "qtd": 8,
+   "fontes": 4
+  },
+  {
+   "pai": "ViewerFolder",
+   "filho": "InternalTag",
+   "qtd": 8,
+   "fontes": 1
+  },
+  {
+   "pai": "fUsinaPV",
+   "filho": "fPPC",
+   "qtd": 8,
+   "fontes": 5
+  },
+  {
+   "pai": "fSubestacao0se",
+   "filho": "fCircuito0se",
+   "qtd": 7,
+   "fontes": 3
+  },
+  {
+   "pai": "Screen",
+   "filho": "cIconeCFTV",
+   "qtd": 7,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cIconeRTU",
+   "qtd": 7,
+   "fontes": 1
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "DrawBezier",
+   "qtd": 7,
+   "fontes": 2
+  },
+  {
+   "pai": "XControl",
+   "filho": "DynamicMove",
+   "qtd": 7,
+   "fontes": 2
+  },
+  {
+   "pai": "fCircuito0se",
+   "filho": "fDados",
+   "qtd": 6,
+   "fontes": 3
+  },
+  {
+   "pai": "fGrupoComandos0se",
+   "filho": "fComando",
+   "qtd": 6,
+   "fontes": 1
+  },
+  {
+   "pai": "DataFolder",
+   "filho": "oDashConfigGauge0se",
+   "qtd": 6,
+   "fontes": 1
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "E3Alarm",
+   "qtd": 6,
+   "fontes": 2
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cIconeIED",
+   "qtd": 6,
+   "fontes": 1
+  },
+  {
+   "pai": "DynamicMove",
+   "filho": "DrawGroup",
+   "qtd": 6,
+   "fontes": 2
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cNavegacaoScreensHeader0se",
+   "qtd": 6,
+   "fontes": 1
+  },
+  {
+   "pai": "InternalTag",
+   "filho": "DiscreteAlarmSource",
+   "qtd": 6,
+   "fontes": 2
+  },
+  {
+   "pai": "Screen",
+   "filho": "cDashPizzaGraph",
+   "qtd": 5,
+   "fontes": 1
+  },
+  {
+   "pai": "DataFolder",
+   "filho": "DataFolder",
+   "qtd": 5,
+   "fontes": 1
+  },
+  {
+   "pai": "ViewerFolder",
+   "filho": "ViewerFolder",
+   "qtd": 5,
+   "fontes": 1
+  },
+  {
+   "pai": "fCircuito0se",
+   "filho": "fgrupoChaves",
+   "qtd": 5,
+   "fontes": 2
+  },
+  {
+   "pai": "fSubestacao0se",
+   "filho": "fDados",
+   "qtd": 5,
+   "fontes": 2
+  },
+  {
+   "pai": "fRetificador0se",
+   "filho": "fDados0se",
+   "qtd": 5,
+   "fontes": 3
+  },
+  {
+   "pai": "Screen",
+   "filho": "cIconeConversorRede",
+   "qtd": 5,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cIconeServidorSimples",
+   "qtd": 5,
+   "fontes": 2
+  },
+  {
+   "pai": "HistIndex",
+   "filho": "HistIndexField",
+   "qtd": 5,
+   "fontes": 1
+  },
+  {
+   "pai": "fUsinaPV",
+   "filho": "fDisjuntor0se",
+   "qtd": 5,
+   "fontes": 5
+  },
+  {
+   "pai": "XObject",
+   "filho": "fDados",
+   "qtd": 5,
+   "fontes": 1
+  },
+  {
+   "pai": "DataFolder",
+   "filho": "oCalcSum",
+   "qtd": 4,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cIconeCloud",
+   "qtd": 4,
+   "fontes": 2
+  },
+  {
+   "pai": "Screen",
+   "filho": "cEquipRetificador0se",
+   "qtd": 4,
+   "fontes": 2
+  },
+  {
+   "pai": "fRetificador0se",
+   "filho": "fDisjuntor0se",
+   "qtd": 4,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cDashGauge0se",
+   "qtd": 4,
+   "fontes": 1
+  },
+  {
+   "pai": "fUsinaPV",
+   "filho": "fNCU",
+   "qtd": 4,
+   "fontes": 3
+  },
+  {
+   "pai": "fUsinaPV",
+   "filho": "fMultimedidor",
+   "qtd": 4,
+   "fontes": 4
+  },
+  {
+   "pai": "XControl",
+   "filho": "DrawRect",
+   "qtd": 4,
+   "fontes": 2
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cObjNotaOperativa",
+   "qtd": 4,
+   "fontes": 2
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cEquipTracker",
+   "qtd": 4,
+   "fontes": 1
+  },
+  {
+   "pai": "XObject",
+   "filho": "TimerTag",
+   "qtd": 4,
+   "fontes": 2
+  },
+  {
+   "pai": "XObject",
+   "filho": "fDados0se",
+   "qtd": 4,
+   "fontes": 2
+  },
+  {
+   "pai": "<raiz do nó>",
+   "filho": "DBServer",
+   "qtd": 3,
+   "fontes": 1
+  },
+  {
+   "pai": "<raiz do nó>",
+   "filho": "Hist",
+   "qtd": 3,
+   "fontes": 2
+  },
+  {
+   "pai": "Hist",
+   "filho": "HistFieldsCollection",
+   "qtd": 3,
+   "fontes": 2
+  },
+  {
+   "pai": "<raiz do nó>",
+   "filho": "Frame",
+   "qtd": 3,
+   "fontes": 1
+  },
+  {
+   "pai": "Frame",
+   "filho": "FrameSet",
+   "qtd": 3,
+   "fontes": 1
+  },
+  {
+   "pai": "fSubestacao0se",
+   "filho": "fSubestacao0se",
+   "qtd": 3,
+   "fontes": 1
+  },
+  {
+   "pai": "fCircuito0se",
+   "filho": "fTransformador0se",
+   "qtd": 3,
+   "fontes": 3
+  },
+  {
+   "pai": "fElectricPanel0se",
+   "filho": "fRetificador0se",
+   "qtd": 3,
+   "fontes": 2
+  },
+  {
+   "pai": "Screen",
+   "filho": "cIconeSwitchRede",
+   "qtd": 3,
+   "fontes": 1
+  },
+  {
+   "pai": "fUsinaPV",
+   "filho": "fUsinaPV",
+   "qtd": 3,
+   "fontes": 1
+  },
+  {
+   "pai": "DataFolder",
+   "filho": "oConfigNavegacaoScreens0se",
+   "qtd": 3,
+   "fontes": 1
+  },
+  {
+   "pai": "E3Browser",
+   "filho": "E3Query",
+   "qtd": 3,
+   "fontes": 2
+  },
+  {
+   "pai": "fUsinaPV",
+   "filho": "fTransformador0se",
+   "qtd": 3,
+   "fontes": 3
+  },
+  {
+   "pai": "XControl",
+   "filho": "cLibModuloPV",
+   "qtd": 3,
+   "fontes": 1
+  },
+  {
+   "pai": "InternalTag",
+   "filho": "DigitalAlarmSource",
+   "qtd": 3,
+   "fontes": 2
+  },
+  {
+   "pai": "<raiz do nó>",
+   "filho": "UaDriver",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "E3Chart",
+   "filho": "E3Query",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "DrawPicture",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "TimerTag",
+   "qtd": 2,
+   "fontes": 2
+  },
+  {
+   "pai": "Screen",
+   "filho": "ListBox",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "DataFolder",
+   "filho": "oConfigHeader0se",
+   "qtd": 2,
+   "fontes": 2
+  },
+  {
+   "pai": "fDisjuntor0se",
+   "filho": "fIED0se",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "fCircuito",
+   "filho": "fChave0se",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "fInversor",
+   "filho": "fChave0se",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "fInversor",
+   "filho": "fDisjuntor0se",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "fDados",
+   "filho": "oMedidaAnalogicaCalculada0se",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "fSubestacao0se",
+   "filho": "fIED0se",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "fMedidaAnalogica0se",
+   "filho": "fMedidaAnalogica0se",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "fCircuito0se",
+   "filho": "fRetificador0se",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "fElectricPanel0se",
+   "filho": "fTransformador0se",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "fIED0se",
+   "filho": "fTransformador0se",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "fTransformador0se",
+   "filho": "fDados0se",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "E3Browser",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "ComboBox",
+   "qtd": 2,
+   "fontes": 2
+  },
+  {
+   "pai": "Screen",
+   "filho": "cEquipBateria0se",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "fUsinaPV",
+   "filho": "fCircuito",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "fCircuito",
+   "filho": "fCampoSolar",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "IOTag",
+   "filho": "DiscreteAlarmSource",
+   "qtd": 2,
+   "fontes": 2
+  },
+  {
+   "pai": "fDisjuntor0se",
+   "filho": "AnalogAlarmSource",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cObjGauge",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cDashGaugePaineis",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cLibGHI",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "XControl",
+   "filho": "cObjGauge",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "XControl",
+   "filho": "cObjBarGraph",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cObjAlarme",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "DynamicMove",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "DynamicMove",
+   "filho": "DrawTank",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "XControl",
+   "filho": "cObjMedidaAnalogicaTela",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "XControl",
+   "filho": "E3Browser",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cLibPOA",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "XControl",
+   "filho": "cObjElectricConnection0se",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "XControl",
+   "filho": "DrawPicture",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cDashBarGraph0se",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cDashGaugePequeno0se",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "pai": "DBServer",
+   "filho": "DigitalAlarmSource",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Hist",
+   "filho": "HistPrimaryKey",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "<raiz do nó>",
+   "filho": "AlarmServer",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cPainelDisjuntor0se",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cPainelChave0se",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cPainelInversor",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cPainelCMB",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cPainelStrings",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cPainelMultimedidor",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cPainelPPC",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cPainelTransformadores0se",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cPainelNCU",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cPainelTracker",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cPainelIED0se",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cPainelRetificador0se",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cPainelMeteorologica",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cPainelScadaPowerControl",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cDashCardBtc",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cDashCardGeral0se",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cPainelNotaOperativa",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "DataFolder",
+   "filho": "DemoTag",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "DataFolder",
+   "filho": "oQueryPerformanceSQL",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "DataFolder",
+   "filho": "temp",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "<raiz do nó>",
+   "filho": "Viewer",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Viewer",
+   "filho": "FrameSet",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Viewer",
+   "filho": "ViewerFolder",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "ViewerFolder",
+   "filho": "E3Query",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "ViewerFolder",
+   "filho": "DemoTag",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "UaDriver",
+   "filho": "UaSubscription",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "UaSubscription",
+   "filho": "UaFolder",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "fElectricPanel0se",
+   "filho": "fCircuito",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "fCircuito",
+   "filho": "fTransformador0se",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "fCircuito",
+   "filho": "fDisjuntor0se",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "fDados",
+   "filho": "fMedidaDigital",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "fCircuito0se",
+   "filho": "fEMET",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "fCircuito0se",
+   "filho": "fElectricPanel0se",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "fElectricPanel0se",
+   "filho": "fDados",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "fElectricPanel0se",
+   "filho": "fGerador",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "fGerador",
+   "filho": "fDados0se",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cIconeRoteador",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "CheckBox",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "InternalTag",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "fMedidaAnalogica0se",
+   "filho": "TimerTag",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "fElectricPanel0se",
+   "filho": "fCircuito0se",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "fGrupoDigitais",
+   "filho": "DigitalAlarmSource",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "fCircuito0se",
+   "filho": "fGerador",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "fGerador",
+   "filho": "fDados",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "DataServer",
+   "filho": "fSubestacao0se",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "fGrupoAnalogicas0se",
+   "filho": "oMedidaAnalogicaCalculada0se",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "fSubestacao0se",
+   "filho": "fChave0se",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "fSubestacao0se",
+   "filho": "DigitalAlarmSource",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "DataServer",
+   "filho": "oDashConfigCardGeralUsinas0se",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "DataServer",
+   "filho": "InternalTag",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cIconeComputador",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cIconeFirewall",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cDashBarGraph0se",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Hist",
+   "filho": "HistIndexesCollection",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "HistIndexesCollection",
+   "filho": "HistIndex",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "fUsinaPV",
+   "filho": "DigitalAlarmSource",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "fMedidaAnalogica",
+   "filho": "AnalogAlarmSource",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "Screen",
+   "filho": "cEquipScadaPowerControl",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "fUsinaPV",
+   "filho": "fObjScadaPowerControl",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "fObjScadaPowerControl",
+   "filho": "fDados",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cDashBarGraph",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "XControl",
+   "filho": "cObjMedidaDigitalPaineis",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "XControl",
+   "filho": "cPainelStrings",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "XControl",
+   "filho": "cEquipInversor",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "XControl",
+   "filho": "cIconeSol",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "XControl",
+   "filho": "cEquipTracker",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "DynamicMove",
+   "filho": "DrawCircle",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "XControl",
+   "filho": "E3Chart",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "XControl",
+   "filho": "ComboBox",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "XControl",
+   "filho": "CommandButton",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "XControl",
+   "filho": "cObjBotaoHighPerformance0se",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "cLibAlbedo",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "XControl",
+   "filho": "ListBox",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "DrawGroup",
+   "filho": "DrawPicture",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "XControl",
+   "filho": "cEquipTrafo0se",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "XControl",
+   "filho": "cEquipDisjuntor0se",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "XControl",
+   "filho": "cObjLogoSCADA",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "XObject",
+   "filho": "DemoTag",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "XObject",
+   "filho": "oCalcSum",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "pai": "XObject",
+   "filho": "fMedidaDigital",
+   "qtd": 1,
+   "fontes": 1
+  }
+ ],
+ "componentes": [
+  {
+   "dono": "fMedidaAnalogica",
+   "componente": "AgSimple",
+   "qtd": 342932,
+   "fontes": 25
+  },
+  {
+   "dono": "fMedidaDigital",
+   "componente": "AgSimple",
+   "qtd": 157878,
+   "fontes": 26
+  },
+  {
+   "dono": "IOTag",
+   "componente": "AgScript",
+   "qtd": 67755,
+   "fontes": 16
+  },
+  {
+   "dono": "DigitalAlarmSource",
+   "componente": "DigitalAlarm",
+   "qtd": 52416,
+   "fontes": 29
+  },
+  {
+   "dono": "fMedidaDigital",
+   "componente": "TableBind",
+   "qtd": 51574,
+   "fontes": 26
+  },
+  {
+   "dono": "oMedidaDigitalBit",
+   "componente": "TableBind",
+   "qtd": 46790,
+   "fontes": 22
+  },
+  {
+   "dono": "fMedidaAnalogica",
+   "componente": "AgScript",
+   "qtd": 46386,
+   "fontes": 25
+  },
+  {
+   "dono": "fMedidaDigital",
+   "componente": "AgScript",
+   "qtd": 36413,
+   "fontes": 25
+  },
+  {
+   "dono": "DigitalAlarmSource",
+   "componente": "AgScript",
+   "qtd": 25809,
+   "fontes": 29
+  },
+  {
+   "dono": "fDados",
+   "componente": "AgScript",
+   "qtd": 16258,
+   "fontes": 26
+  },
+  {
+   "dono": "fGrupoAnalogicas",
+   "componente": "AgScript",
+   "qtd": 15549,
+   "fontes": 25
+  },
+  {
+   "dono": "fString",
+   "componente": "AgScript",
+   "qtd": 12018,
+   "fontes": 24
+  },
+  {
+   "dono": "IOFolder",
+   "componente": "AgScript",
+   "qtd": 8604,
+   "fontes": 16
+  },
+  {
+   "dono": "fComando",
+   "componente": "AgSimple",
+   "qtd": 6775,
+   "fontes": 25
+  },
+  {
+   "dono": "fTracker",
+   "componente": "AgSimple",
+   "qtd": 6679,
+   "fontes": 18
+  },
+  {
+   "dono": "fArray",
+   "componente": "AgSimple",
+   "qtd": 6256,
+   "fontes": 23
+  },
+  {
+   "dono": "cEquipArrayLayout",
+   "componente": "AgScript",
+   "qtd": 5766,
+   "fontes": 23
+  },
+  {
+   "dono": "fGrupoDigitais",
+   "componente": "AgScript",
+   "qtd": 4025,
+   "fontes": 25
+  },
+  {
+   "dono": "DiscreteAlarmSource",
+   "componente": "DiscreteAlarm",
+   "qtd": 3754,
+   "fontes": 30
+  },
+  {
+   "dono": "DiscreteAlarmSource",
+   "componente": "AgScript",
+   "qtd": 3666,
+   "fontes": 29
+  },
+  {
+   "dono": "cObjElectricConnection0se",
+   "componente": "AgScript",
+   "qtd": 2868,
+   "fontes": 27
+  },
+  {
+   "dono": "IOTag",
+   "componente": "AgSimple",
+   "qtd": 2830,
+   "fontes": 2
+  },
+  {
+   "dono": "fArray",
+   "componente": "AgScript",
+   "qtd": 2688,
+   "fontes": 21
+  },
+  {
+   "dono": "fTracker",
+   "componente": "AgScript",
+   "qtd": 2318,
+   "fontes": 17
+  },
+  {
+   "dono": "fComando",
+   "componente": "AgScript",
+   "qtd": 1921,
+   "fontes": 25
+  },
+  {
+   "dono": "fInversor",
+   "componente": "AgSimple",
+   "qtd": 1905,
+   "fontes": 25
+  },
+  {
+   "dono": "fMedidaDigital0se",
+   "componente": "AgSimple",
+   "qtd": 1455,
+   "fontes": 2
+  },
+  {
+   "dono": "fMedidaAnalogica0se",
+   "componente": "AgSimple",
+   "qtd": 1135,
+   "fontes": 2
+  },
+  {
+   "dono": "DrawGroup",
+   "componente": "AgScript",
+   "qtd": 1080,
+   "fontes": 28
+  },
+  {
+   "dono": "DigitalAlarmSource",
+   "componente": "AgSimple",
+   "qtd": 969,
+   "fontes": 26
+  },
+  {
+   "dono": "DrawString",
+   "componente": "AgScript",
+   "qtd": 892,
+   "fontes": 30
+  },
+  {
+   "dono": "fGrupoComandos",
+   "componente": "AgScript",
+   "qtd": 795,
+   "fontes": 25
+  },
+  {
+   "dono": "cEquipFiltro",
+   "componente": "AgScript",
+   "qtd": 698,
+   "fontes": 23
+  },
+  {
+   "dono": "oMedidaDigitalBit",
+   "componente": "AgScript",
+   "qtd": 693,
+   "fontes": 3
+  },
+  {
+   "dono": "cEquipInversor",
+   "componente": "AgScript",
+   "qtd": 657,
+   "fontes": 26
+  },
+  {
+   "dono": "cEquipString",
+   "componente": "AgScript",
+   "qtd": 655,
+   "fontes": 25
+  },
+  {
+   "dono": "fInversor",
+   "componente": "AgScript",
+   "qtd": 631,
+   "fontes": 25
+  },
+  {
+   "dono": "fGrupoStrings",
+   "componente": "AgScript",
+   "qtd": 594,
+   "fontes": 21
+  },
+  {
+   "dono": "fChave0se",
+   "componente": "AgScript",
+   "qtd": 507,
+   "fontes": 26
+  },
+  {
+   "dono": "fDisjuntor0se",
+   "componente": "AgScript",
+   "qtd": 493,
+   "fontes": 25
+  },
+  {
+   "dono": "cObjMedidaAnalogicaPaineis0se",
+   "componente": "AgScript",
+   "qtd": 490,
+   "fontes": 2
+  },
+  {
+   "dono": "fMedidaDigital0se",
+   "componente": "AgScript",
+   "qtd": 485,
+   "fontes": 2
+  },
+  {
+   "dono": "fMedidaDigital0se",
+   "componente": "TableBind",
+   "qtd": 485,
+   "fontes": 2
+  },
+  {
+   "dono": "cEquipChave0se",
+   "componente": "AgScript",
+   "qtd": 472,
+   "fontes": 27
+  },
+  {
+   "dono": "cEquipDisjuntor0se",
+   "componente": "AgScript",
+   "qtd": 465,
+   "fontes": 26
+  },
+  {
+   "dono": "DrawLine",
+   "componente": "AgScript",
+   "qtd": 398,
+   "fontes": 30
+  },
+  {
+   "dono": "fMedidaAnalogica0se",
+   "componente": "AgScript",
+   "qtd": 379,
+   "fontes": 2
+  },
+  {
+   "dono": "IOBlockElement",
+   "componente": "AgScript",
+   "qtd": 344,
+   "fontes": 2
+  },
+  {
+   "dono": "InternalTag",
+   "componente": "AgScript",
+   "qtd": 279,
+   "fontes": 10
+  },
+  {
+   "dono": "cObjMedidaDigitalPaineis0se",
+   "componente": "AgScript",
+   "qtd": 270,
+   "fontes": 2
+  },
+  {
+   "dono": "DrawString",
+   "componente": "AgSimple",
+   "qtd": 227,
+   "fontes": 4
+  },
+  {
+   "dono": "oCalcSum",
+   "componente": "AgScript",
+   "qtd": 216,
+   "fontes": 27
+  },
+  {
+   "dono": "cObjMedidaDigitalPaineis",
+   "componente": "AgScript",
+   "qtd": 210,
+   "fontes": 1
+  },
+  {
+   "dono": "InternalTag",
+   "componente": "AgSimple",
+   "qtd": 206,
+   "fontes": 27
+  },
+  {
+   "dono": "cObjCardFundo",
+   "componente": "AgScript",
+   "qtd": 199,
+   "fontes": 16
+  },
+  {
+   "dono": "oDashConfigCardGeralUsinas",
+   "componente": "AgSimple",
+   "qtd": 194,
+   "fontes": 25
+  },
+  {
+   "dono": "cObjBotaoHighPerformance0se",
+   "componente": "AgScript",
+   "qtd": 185,
+   "fontes": 9
+  },
+  {
+   "dono": "cTabularTRK",
+   "componente": "AgScript",
+   "qtd": 184,
+   "fontes": 1
+  },
+  {
+   "dono": "Screen",
+   "componente": "AgScript",
+   "qtd": 180,
+   "fontes": 27
+  },
+  {
+   "dono": "InternalTag",
+   "componente": "TableBind",
+   "qtd": 175,
+   "fontes": 3
+  },
+  {
+   "dono": "DrawTank",
+   "componente": "AgScript",
+   "qtd": 167,
+   "fontes": 25
+  },
+  {
+   "dono": "fComando0se",
+   "componente": "AgSimple",
+   "qtd": 165,
+   "fontes": 1
+  },
+  {
+   "dono": "cObjBotaoHighPerformance0se",
+   "componente": "AnimationBind",
+   "qtd": 155,
+   "fontes": 9
+  },
+  {
+   "dono": "cObjBotaoHighPerformance",
+   "componente": "AgScript",
+   "qtd": 143,
+   "fontes": 5
+  },
+  {
+   "dono": "oMedidaDigitalCalculada0se",
+   "componente": "AgScript",
+   "qtd": 139,
+   "fontes": 24
+  },
+  {
+   "dono": "DrawConnector",
+   "componente": "AgScript",
+   "qtd": 134,
+   "fontes": 8
+  },
+  {
+   "dono": "fGrupoDigitais0se",
+   "componente": "AgScript",
+   "qtd": 129,
+   "fontes": 6
+  },
+  {
+   "dono": "oMedidaAnalogicaCalculada0se",
+   "componente": "AgScript",
+   "qtd": 127,
+   "fontes": 24
+  },
+  {
+   "dono": "XControl",
+   "componente": "XCoClass",
+   "qtd": 127,
+   "fontes": 3
+  },
+  {
+   "dono": "XControl",
+   "componente": "AgScript",
+   "qtd": 127,
+   "fontes": 3
+  },
+  {
+   "dono": "fMultimedidor",
+   "componente": "AgScript",
+   "qtd": 122,
+   "fontes": 23
+  },
+  {
+   "dono": "cObjMedidaAnalogicaPaineis",
+   "componente": "AgScript",
+   "qtd": 112,
+   "fontes": 1
+  },
+  {
+   "dono": "fDados0se",
+   "componente": "AgScript",
+   "qtd": 106,
+   "fontes": 26
+  },
+  {
+   "dono": "fgrupoChaves",
+   "componente": "AgScript",
+   "qtd": 100,
+   "fontes": 25
+  },
+  {
+   "dono": "HistField",
+   "componente": "AgScript",
+   "qtd": 98,
+   "fontes": 2
+  },
+  {
+   "dono": "cObjCardFundo0se",
+   "componente": "AgScript",
+   "qtd": 98,
+   "fontes": 29
+  },
+  {
+   "dono": "cEquipTrafo0se",
+   "componente": "AgScript",
+   "qtd": 97,
+   "fontes": 27
+  },
+  {
+   "dono": "DrawRect",
+   "componente": "AgScript",
+   "qtd": 92,
+   "fontes": 27
+  },
+  {
+   "dono": "fTransformador0se",
+   "componente": "AgScript",
+   "qtd": 89,
+   "fontes": 26
+  },
+  {
+   "dono": "IOBlock",
+   "componente": "AgScript",
+   "qtd": 86,
+   "fontes": 2
+  },
+  {
+   "dono": "cEquipNCU",
+   "componente": "AgScript",
+   "qtd": 85,
+   "fontes": 19
+  },
+  {
+   "dono": "oDashConfigGauge",
+   "componente": "AgSimple",
+   "qtd": 80,
+   "fontes": 26
+  },
+  {
+   "dono": "fUsinaPV",
+   "componente": "AgSimple",
+   "qtd": 77,
+   "fontes": 25
+  },
+  {
+   "dono": "DrawCircle",
+   "componente": "AgScript",
+   "qtd": 76,
+   "fontes": 27
+  },
+  {
+   "dono": "DataFolder",
+   "componente": "AgScript",
+   "qtd": 73,
+   "fontes": 27
+  },
+  {
+   "dono": "cObjBotaoHighPerformance0se",
+   "componente": "AgSimple",
+   "qtd": 73,
+   "fontes": 2
+  },
+  {
+   "dono": "fCampoSolar",
+   "componente": "AgScript",
+   "qtd": 72,
+   "fontes": 25
+  },
+  {
+   "dono": "cEquipIED0se",
+   "componente": "AgScript",
+   "qtd": 70,
+   "fontes": 2
+  },
+  {
+   "dono": "DrawLine",
+   "componente": "AnimationBind",
+   "qtd": 68,
+   "fontes": 5
+  },
+  {
+   "dono": "fIED0se",
+   "componente": "AgScript",
+   "qtd": 68,
+   "fontes": 4
+  },
+  {
+   "dono": "cObjNotaOperativa",
+   "componente": "AgSimple",
+   "qtd": 68,
+   "fontes": 2
+  },
+  {
+   "dono": "XFolder",
+   "componente": "XCoClass",
+   "qtd": 68,
+   "fontes": 3
+  },
+  {
+   "dono": "XFolder",
+   "componente": "AgScript",
+   "qtd": 68,
+   "fontes": 3
+  },
+  {
+   "dono": "DrawGroup",
+   "componente": "TableBind",
+   "qtd": 64,
+   "fontes": 2
+  },
+  {
+   "dono": "fMultimedidor",
+   "componente": "AgSimple",
+   "qtd": 63,
+   "fontes": 23
+  },
+  {
+   "dono": "IODriver",
+   "componente": "AgScript",
+   "qtd": 57,
+   "fontes": 29
+  },
+  {
+   "dono": "fNCU",
+   "componente": "AgScript",
+   "qtd": 57,
+   "fontes": 19
+  },
+  {
+   "dono": "cObjComConnection",
+   "componente": "AgScript",
+   "qtd": 57,
+   "fontes": 1
+  },
+  {
+   "dono": "cEquipMultimedidor",
+   "componente": "AgScript",
+   "qtd": 56,
+   "fontes": 22
+  },
+  {
+   "dono": "fComando0se",
+   "componente": "AgScript",
+   "qtd": 55,
+   "fontes": 1
+  },
+  {
+   "dono": "DataServer",
+   "componente": "AgScript",
+   "qtd": 53,
+   "fontes": 27
+  },
+  {
+   "dono": "DrawTank",
+   "componente": "AgSimple",
+   "qtd": 53,
+   "fontes": 3
+  },
+  {
+   "dono": "fEMET",
+   "componente": "AgScript",
+   "qtd": 51,
+   "fontes": 25
+  },
+  {
+   "dono": "DrawString",
+   "componente": "AnimationBind",
+   "qtd": 50,
+   "fontes": 5
+  },
+  {
+   "dono": "cObjBotaoHighPerformance",
+   "componente": "AnimationBind",
+   "qtd": 50,
+   "fontes": 2
+  },
+  {
+   "dono": "fGrupoAnalogicas0se",
+   "componente": "AgScript",
+   "qtd": 49,
+   "fontes": 2
+  },
+  {
+   "dono": "UaTag",
+   "componente": "AgScript",
+   "qtd": 48,
+   "fontes": 1
+  },
+  {
+   "dono": "oStatusTrackers",
+   "componente": "AgScript",
+   "qtd": 48,
+   "fontes": 1
+  },
+  {
+   "dono": "DrawGroup",
+   "componente": "AgSimple",
+   "qtd": 48,
+   "fontes": 3
+  },
+  {
+   "dono": "E3Alarm",
+   "componente": "AgSimple",
+   "qtd": 47,
+   "fontes": 26
+  },
+  {
+   "dono": "E3Alarm",
+   "componente": "AgScript",
+   "qtd": 46,
+   "fontes": 27
+  },
+  {
+   "dono": "fStringBox",
+   "componente": "AgScript",
+   "qtd": 46,
+   "fontes": 8
+  },
+  {
+   "dono": "DrawArc",
+   "componente": "AgScript",
+   "qtd": 46,
+   "fontes": 4
+  },
+  {
+   "dono": "fSubestacao0se",
+   "componente": "AgScript",
+   "qtd": 45,
+   "fontes": 25
+  },
+  {
+   "dono": "fCMB",
+   "componente": "AgScript",
+   "qtd": 45,
+   "fontes": 21
+  },
+  {
+   "dono": "fGrupoComandos0se",
+   "componente": "AgScript",
+   "qtd": 42,
+   "fontes": 1
+  },
+  {
+   "dono": "fEletrocentro",
+   "componente": "AgScript",
+   "qtd": 41,
+   "fontes": 5
+  },
+  {
+   "dono": "oConfigNavegacaoScreens",
+   "componente": "AgScript",
+   "qtd": 40,
+   "fontes": 24
+  },
+  {
+   "dono": "oDashConfigGauge",
+   "componente": "AgScript",
+   "qtd": 40,
+   "fontes": 26
+  },
+  {
+   "dono": "cDetalhesUsina",
+   "componente": "AgScript",
+   "qtd": 40,
+   "fontes": 25
+  },
+  {
+   "dono": "IOBlockElement",
+   "componente": "AgSimple",
+   "qtd": 40,
+   "fontes": 1
+  },
+  {
+   "dono": "oMedidaAnalogicaCalculada",
+   "componente": "AgScript",
+   "qtd": 39,
+   "fontes": 23
+  },
+  {
+   "dono": "cPainelMedidasTela",
+   "componente": "AgScript",
+   "qtd": 37,
+   "fontes": 20
+  },
+  {
+   "dono": "oMedidaDigitalCalculada",
+   "componente": "AgScript",
+   "qtd": 37,
+   "fontes": 8
+  },
+  {
+   "dono": "cEquipCMB",
+   "componente": "AgScript",
+   "qtd": 36,
+   "fontes": 20
+  },
+  {
+   "dono": "fQGBT",
+   "componente": "AgScript",
+   "qtd": 36,
+   "fontes": 20
+  },
+  {
+   "dono": "DrawArc",
+   "componente": "AgSimple",
+   "qtd": 36,
+   "fontes": 3
+  },
+  {
+   "dono": "DrawString",
+   "componente": "TableBind",
+   "qtd": 35,
+   "fontes": 4
+  },
+  {
+   "dono": "cObjMedidaAnalogicaTela",
+   "componente": "AgScript",
+   "qtd": 35,
+   "fontes": 1
+  },
+  {
+   "dono": "fGrupoTrackers",
+   "componente": "AgScript",
+   "qtd": 34,
+   "fontes": 17
+  },
+  {
+   "dono": "DiscreteAlarmSource",
+   "componente": "AgSimple",
+   "qtd": 33,
+   "fontes": 2
+  },
+  {
+   "dono": "DrawTank",
+   "componente": "TableBind",
+   "qtd": 33,
+   "fontes": 3
+  },
+  {
+   "dono": "fElectricPanel0se",
+   "componente": "AgScript",
+   "qtd": 32,
+   "fontes": 4
+  },
+  {
+   "dono": "cObjBotaoHighPerformance",
+   "componente": "AgSimple",
+   "qtd": 32,
+   "fontes": 2
+  },
+  {
+   "dono": "cPainelResumedMeteo",
+   "componente": "AgScript",
+   "qtd": 31,
+   "fontes": 5
+  },
+  {
+   "dono": "cObjAnalogScreen0se",
+   "componente": "AgScript",
+   "qtd": 31,
+   "fontes": 3
+  },
+  {
+   "dono": "XObject",
+   "componente": "XCoClass",
+   "qtd": 31,
+   "fontes": 4
+  },
+  {
+   "dono": "XObject",
+   "componente": "AgScript",
+   "qtd": 31,
+   "fontes": 4
+  },
+  {
+   "dono": "fEMET",
+   "componente": "AgSimple",
+   "qtd": 30,
+   "fontes": 22
+  },
+  {
+   "dono": "E3Chart",
+   "componente": "AgScript",
+   "qtd": 29,
+   "fontes": 2
+  },
+  {
+   "dono": "fUsinaPV",
+   "componente": "AgScript",
+   "qtd": 28,
+   "fontes": 25
+  },
+  {
+   "dono": "CheckBox",
+   "componente": "AgScript",
+   "qtd": 28,
+   "fontes": 3
+  },
+  {
+   "dono": "CheckBox",
+   "componente": "AgSimple",
+   "qtd": 28,
+   "fontes": 2
+  },
+  {
+   "dono": "cObjHeader0se",
+   "componente": "AgScript",
+   "qtd": 27,
+   "fontes": 27
+  },
+  {
+   "dono": "UaFolder",
+   "componente": "AgScript",
+   "qtd": 27,
+   "fontes": 1
+  },
+  {
+   "dono": "cObjTelaAlarmes",
+   "componente": "AgScript",
+   "qtd": 26,
+   "fontes": 26
+  },
+  {
+   "dono": "cObjHist",
+   "componente": "AgScript",
+   "qtd": 26,
+   "fontes": 26
+  },
+  {
+   "dono": "cTabularResumoUsinas",
+   "componente": "AgScript",
+   "qtd": 26,
+   "fontes": 1
+  },
+  {
+   "dono": "cDashCardGeralUsinas",
+   "componente": "AgScript",
+   "qtd": 25,
+   "fontes": 1
+  },
+  {
+   "dono": "oDashConfigCardGeralUsinas",
+   "componente": "AgScript",
+   "qtd": 25,
+   "fontes": 25
+  },
+  {
+   "dono": "oConfigHeader",
+   "componente": "AgScript",
+   "qtd": 25,
+   "fontes": 25
+  },
+  {
+   "dono": "DrawConnector",
+   "componente": "AgSimple",
+   "qtd": 23,
+   "fontes": 2
+  },
+  {
+   "dono": "cEquipGerador0se",
+   "componente": "AgScript",
+   "qtd": 22,
+   "fontes": 5
+  },
+  {
+   "dono": "cEquipPPC",
+   "componente": "AgScript",
+   "qtd": 22,
+   "fontes": 5
+  },
+  {
+   "dono": "cObjGround0se",
+   "componente": "AgScript",
+   "qtd": 22,
+   "fontes": 2
+  },
+  {
+   "dono": "cEquipStringPainel",
+   "componente": "AgScript",
+   "qtd": 22,
+   "fontes": 1
+  },
+  {
+   "dono": "cEquipStringPainel",
+   "componente": "AgSimple",
+   "qtd": 22,
+   "fontes": 1
+  },
+  {
+   "dono": "oCalcResumoInversores",
+   "componente": "AgScript",
+   "qtd": 21,
+   "fontes": 4
+  },
+  {
+   "dono": "DrawLine",
+   "componente": "TableBind",
+   "qtd": 21,
+   "fontes": 2
+  },
+  {
+   "dono": "fEletrocentro",
+   "componente": "AgSimple",
+   "qtd": 20,
+   "fontes": 1
+  },
+  {
+   "dono": "cEquipMeteorologica",
+   "componente": "AgScript",
+   "qtd": 20,
+   "fontes": 20
+  },
+  {
+   "dono": "DrawRect",
+   "componente": "AgSimple",
+   "qtd": 20,
+   "fontes": 3
+  },
+  {
+   "dono": "DrawTank",
+   "componente": "AnimationBind",
+   "qtd": 20,
+   "fontes": 3
+  },
+  {
+   "dono": "cEquipStringLayout",
+   "componente": "AgScript",
+   "qtd": 20,
+   "fontes": 1
+  },
+  {
+   "dono": "cEquipStringLayout",
+   "componente": "AgSimple",
+   "qtd": 20,
+   "fontes": 1
+  },
+  {
+   "dono": "cEquipCUB0se",
+   "componente": "AgScript",
+   "qtd": 19,
+   "fontes": 2
+  },
+  {
+   "dono": "DrawLine",
+   "componente": "AgSimple",
+   "qtd": 19,
+   "fontes": 3
+  },
+  {
+   "dono": "cObjNotaOperativa",
+   "componente": "AgScript",
+   "qtd": 17,
+   "fontes": 2
+  },
+  {
+   "dono": "cObjBotaoHighPerformance",
+   "componente": "TableBind",
+   "qtd": 16,
+   "fontes": 2
+  },
+  {
+   "dono": "cIconeIED",
+   "componente": "AgScript",
+   "qtd": 15,
+   "fontes": 2
+  },
+  {
+   "dono": "FrameSet",
+   "componente": "AgScript",
+   "qtd": 14,
+   "fontes": 1
+  },
+  {
+   "dono": "fCMB",
+   "componente": "AgSimple",
+   "qtd": 14,
+   "fontes": 11
+  },
+  {
+   "dono": "cObjMedidaAnalogicaTela",
+   "componente": "AgSimple",
+   "qtd": 13,
+   "fontes": 1
+  },
+  {
+   "dono": "fMPPT",
+   "componente": "AgScript",
+   "qtd": 12,
+   "fontes": 4
+  },
+  {
+   "dono": "cDashPizzaGraph",
+   "componente": "AgSimple",
+   "qtd": 11,
+   "fontes": 1
+  },
+  {
+   "dono": "cObjSelect",
+   "componente": "AgScript",
+   "qtd": 10,
+   "fontes": 1
+  },
+  {
+   "dono": "fChave0se",
+   "componente": "AgSimple",
+   "qtd": 9,
+   "fontes": 2
+  },
+  {
+   "dono": "DrawRect",
+   "componente": "TableBind",
+   "qtd": 9,
+   "fontes": 3
+  },
+  {
+   "dono": "DynamicMove",
+   "componente": "AgScript",
+   "qtd": 9,
+   "fontes": 2
+  },
+  {
+   "dono": "DynamicMove",
+   "componente": "AgSimple",
+   "qtd": 9,
+   "fontes": 2
+  },
+  {
+   "dono": "cDashGauge",
+   "componente": "AgScript",
+   "qtd": 8,
+   "fontes": 4
+  },
+  {
+   "dono": "fCircuito0se",
+   "componente": "AgScript",
+   "qtd": 8,
+   "fontes": 4
+  },
+  {
+   "dono": "fCircuito0se",
+   "componente": "AgSimple",
+   "qtd": 8,
+   "fontes": 4
+  },
+  {
+   "dono": "fPPC",
+   "componente": "AgScript",
+   "qtd": 8,
+   "fontes": 5
+  },
+  {
+   "dono": "AnalogAlarmSource",
+   "componente": "AgSimple",
+   "qtd": 8,
+   "fontes": 1
+  },
+  {
+   "dono": "DrawRect",
+   "componente": "AnimationBind",
+   "qtd": 8,
+   "fontes": 2
+  },
+  {
+   "dono": "cObjGauge",
+   "componente": "AgSimple",
+   "qtd": 8,
+   "fontes": 2
+  },
+  {
+   "dono": "cObjBotaoHighPerformance0se",
+   "componente": "TableBind",
+   "qtd": 8,
+   "fontes": 1
+  },
+  {
+   "dono": "TimerTag",
+   "componente": "AgScript",
+   "qtd": 7,
+   "fontes": 4
+  },
+  {
+   "dono": "TimerTag",
+   "componente": "AgSimple",
+   "qtd": 7,
+   "fontes": 3
+  },
+  {
+   "dono": "cDashBarGraph0se",
+   "componente": "AgSimple",
+   "qtd": 7,
+   "fontes": 2
+  },
+  {
+   "dono": "DrawBezier",
+   "componente": "AgScript",
+   "qtd": 7,
+   "fontes": 2
+  },
+  {
+   "dono": "DrawString",
+   "componente": "MultiSourceBind",
+   "qtd": 7,
+   "fontes": 2
+  },
+  {
+   "dono": "E3Query",
+   "componente": "AgScript",
+   "qtd": 6,
+   "fontes": 3
+  },
+  {
+   "dono": "ViewerFolder",
+   "componente": "AgScript",
+   "qtd": 6,
+   "fontes": 1
+  },
+  {
+   "dono": "oDashConfigGauge0se",
+   "componente": "AgScript",
+   "qtd": 6,
+   "fontes": 1
+  },
+  {
+   "dono": "DrawArc",
+   "componente": "AnalogBind",
+   "qtd": 6,
+   "fontes": 2
+  },
+  {
+   "dono": "DrawTank",
+   "componente": "MultiSourceBind",
+   "qtd": 6,
+   "fontes": 2
+  },
+  {
+   "dono": "CheckBox",
+   "componente": "AnimationBind",
+   "qtd": 6,
+   "fontes": 1
+  },
+  {
+   "dono": "DrawConnector",
+   "componente": "TableBind",
+   "qtd": 6,
+   "fontes": 1
+  },
+  {
+   "dono": "cNavegacaoScreensHeader0se",
+   "componente": "AgScript",
+   "qtd": 6,
+   "fontes": 1
+  },
+  {
+   "dono": "cObjElectricConnection0se",
+   "componente": "AgSimple",
+   "qtd": 6,
+   "fontes": 1
+  },
+  {
+   "dono": "E3Chart",
+   "componente": "AgSimple",
+   "qtd": 5,
+   "fontes": 2
+  },
+  {
+   "dono": "cDashPizzaGraph",
+   "componente": "AgScript",
+   "qtd": 5,
+   "fontes": 1
+  },
+  {
+   "dono": "DrawPicture",
+   "componente": "AgScript",
+   "qtd": 5,
+   "fontes": 3
+  },
+  {
+   "dono": "HistIndexField",
+   "componente": "AgScript",
+   "qtd": 5,
+   "fontes": 1
+  },
+  {
+   "dono": "DrawGroup",
+   "componente": "AnimationBind",
+   "qtd": 5,
+   "fontes": 3
+  },
+  {
+   "dono": "cEquipTracker",
+   "componente": "AgScript",
+   "qtd": 5,
+   "fontes": 1
+  },
+  {
+   "dono": "cObjCardFundo0se",
+   "componente": "AgSimple",
+   "qtd": 5,
+   "fontes": 2
+  },
+  {
+   "dono": "cEquipRetificador0se",
+   "componente": "AgScript",
+   "qtd": 4,
+   "fontes": 2
+  },
+  {
+   "dono": "fRetificador0se",
+   "componente": "AgScript",
+   "qtd": 4,
+   "fontes": 2
+  },
+  {
+   "dono": "E3Browser",
+   "componente": "AgScript",
+   "qtd": 4,
+   "fontes": 2
+  },
+  {
+   "dono": "cIconeServidorSimples",
+   "componente": "AgScript",
+   "qtd": 4,
+   "fontes": 1
+  },
+  {
+   "dono": "cDashGauge0se",
+   "componente": "AgScript",
+   "qtd": 4,
+   "fontes": 1
+  },
+  {
+   "dono": "cObjGauge",
+   "componente": "AgScript",
+   "qtd": 4,
+   "fontes": 2
+  },
+  {
+   "dono": "DrawCircle",
+   "componente": "AgSimple",
+   "qtd": 4,
+   "fontes": 1
+  },
+  {
+   "dono": "cDashBarGraph",
+   "componente": "AgSimple",
+   "qtd": 4,
+   "fontes": 1
+  },
+  {
+   "dono": "cObjBarGraph",
+   "componente": "AgSimple",
+   "qtd": 4,
+   "fontes": 1
+  },
+  {
+   "dono": "cTabularTRK",
+   "componente": "AgSimple",
+   "qtd": 4,
+   "fontes": 1
+  },
+  {
+   "dono": "InternalTag",
+   "componente": "AnimationBind",
+   "qtd": 4,
+   "fontes": 1
+  },
+  {
+   "dono": "DBServer",
+   "componente": "HistServer",
+   "qtd": 3,
+   "fontes": 1
+  },
+  {
+   "dono": "DBServer",
+   "componente": "AgScript",
+   "qtd": 3,
+   "fontes": 1
+  },
+  {
+   "dono": "DBServer",
+   "componente": "DBSqlConnection",
+   "qtd": 3,
+   "fontes": 1
+  },
+  {
+   "dono": "Hist",
+   "componente": "AgScript",
+   "qtd": 3,
+   "fontes": 2
+  },
+  {
+   "dono": "HistFieldsCollection",
+   "componente": "AgScript",
+   "qtd": 3,
+   "fontes": 2
+  },
+  {
+   "dono": "Frame",
+   "componente": "AgScript",
+   "qtd": 3,
+   "fontes": 1
+  },
+  {
+   "dono": "ListBox",
+   "componente": "AgScript",
+   "qtd": 3,
+   "fontes": 2
+  },
+  {
+   "dono": "oConfigNavegacaoScreens0se",
+   "componente": "AgScript",
+   "qtd": 3,
+   "fontes": 1
+  },
+  {
+   "dono": "ComboBox",
+   "componente": "AgScript",
+   "qtd": 3,
+   "fontes": 2
+  },
+  {
+   "dono": "DrawCircle",
+   "componente": "AnimationBind",
+   "qtd": 3,
+   "fontes": 2
+  },
+  {
+   "dono": "cDashBarGraph0se",
+   "componente": "AgScript",
+   "qtd": 3,
+   "fontes": 2
+  },
+  {
+   "dono": "AnalogAlarmSource",
+   "componente": "AnalogLevelAlarm",
+   "qtd": 3,
+   "fontes": 2
+  },
+  {
+   "dono": "AnalogAlarmSource",
+   "componente": "AgScript",
+   "qtd": 3,
+   "fontes": 2
+  },
+  {
+   "dono": "cObjCardFundo",
+   "componente": "TableBind",
+   "qtd": 3,
+   "fontes": 2
+  },
+  {
+   "dono": "cObjCardFundo",
+   "componente": "AgSimple",
+   "qtd": 3,
+   "fontes": 2
+  },
+  {
+   "dono": "DrawCircle",
+   "componente": "TableBind",
+   "qtd": 3,
+   "fontes": 2
+  },
+  {
+   "dono": "DrawTank",
+   "componente": "AnalogBind",
+   "qtd": 3,
+   "fontes": 1
+  },
+  {
+   "dono": "cLibModuloPV",
+   "componente": "AgScript",
+   "qtd": 3,
+   "fontes": 1
+  },
+  {
+   "dono": "UaDriver",
+   "componente": "AgScript",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "dono": "FrameSet",
+   "componente": "AgSimple",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "dono": "Screen",
+   "componente": "AgSimple",
+   "qtd": 2,
+   "fontes": 2
+  },
+  {
+   "dono": "cPainelStrings",
+   "componente": "AgScript",
+   "qtd": 2,
+   "fontes": 2
+  },
+  {
+   "dono": "DemoTag",
+   "componente": "AgScript",
+   "qtd": 2,
+   "fontes": 2
+  },
+  {
+   "dono": "fCircuito",
+   "componente": "AgScript",
+   "qtd": 2,
+   "fontes": 2
+  },
+  {
+   "dono": "oDashConfigCardGeralUsinas0se",
+   "componente": "AgSimple",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "dono": "cEquipBateria0se",
+   "componente": "AgScript",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "dono": "cDashGaugePaineis",
+   "componente": "AgScript",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "dono": "cLibGHI",
+   "componente": "AgScript",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "dono": "cObjBarGraph",
+   "componente": "AgScript",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "dono": "cObjAlarme",
+   "componente": "AgScript",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "dono": "cObjAlarme",
+   "componente": "AgSimple",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "dono": "cEquipTracker",
+   "componente": "AgSimple",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "dono": "cLibPOA",
+   "componente": "AgScript",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "dono": "cDashGaugePequeno0se",
+   "componente": "AgScript",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "dono": "DemoTag",
+   "componente": "TableBind",
+   "qtd": 2,
+   "fontes": 1
+  },
+  {
+   "dono": "HistPrimaryKey",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "AlarmServer",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cPainelDisjuntor0se",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cPainelChave0se",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cPainelInversor",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cPainelCMB",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cPainelMultimedidor",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cPainelPPC",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cPainelTransformadores0se",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cPainelNCU",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cPainelTracker",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cPainelIED0se",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cPainelRetificador0se",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cPainelMeteorologica",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cPainelScadaPowerControl",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cDashCardBtc",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cDashCardGeral0se",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cPainelNotaOperativa",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "temp",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "Viewer",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "UaSubscription",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "oDashConfigCardGeralUsinas",
+   "componente": "AnimationBind",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "fGerador",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "fGrupoComandos",
+   "componente": "AgSimple",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "oConfigHeader0se",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "oDashConfigCardGeralUsinas0se",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cIconeComputador",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cIconeFirewall",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cIconeCloud",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "HistIndexesCollection",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "HistIndex",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cEquipScadaPowerControl",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "fObjScadaPowerControl",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cDashBarGraph",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "DrawString",
+   "componente": "AnalogBind",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cPainelStrings",
+   "componente": "AgSimple",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cIconeSol",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "DrawRect",
+   "componente": "AnalogBind",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cObjCardFundo",
+   "componente": "AnimationBind",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "CommandButton",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cLibAlbedo",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "E3Alarm",
+   "componente": "TableBind",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cEquipTrafo0se",
+   "componente": "AgSimple",
+   "qtd": 1,
+   "fontes": 1
+  },
+  {
+   "dono": "cObjLogoSCADA",
+   "componente": "AgScript",
+   "qtd": 1,
+   "fontes": 1
+  }
+ ]
+}

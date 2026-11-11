@@ -38,6 +38,7 @@ from PySide6.QtWidgets import (
 from . import converter
 from .bootstrap import user_data_root
 from .e3.audit import audit_project, compare_projects
+from .e3.comparator_launcher import launch_original_comparator
 from .gateway import GatewayPoint, export_mapping, preview, validate_points
 from .skills import all_skills, import_skill, import_skill_collection
 
@@ -778,11 +779,14 @@ class E3Page(QWidget):
         analyze.clicked.connect(self.analyze)
         compare_button = QPushButton("Comparar versões")
         compare_button.clicked.connect(self.compare)
+        original_button = QPushButton("Abrir gerador de log comparativo")
+        original_button.clicked.connect(self.launch_comparator)
         self.save_button = QPushButton("Exportar relatório JSON")
         self.save_button.setEnabled(False)
         self.save_button.clicked.connect(self.save_report)
         actions.addWidget(analyze)
         actions.addWidget(compare_button)
+        actions.addWidget(original_button)
         actions.addWidget(self.save_button)
         actions.addStretch()
         outer.addLayout(actions)
@@ -855,6 +859,13 @@ class E3Page(QWidget):
             return
         Path(path).write_text(pretty(self.report) + "\n", encoding="utf-8")
         self.host.notice("Relatório E3 exportado.")
+
+    def launch_comparator(self) -> None:
+        try:
+            launch_original_comparator()
+            self.host.notice("Gerador de log comparativo original iniciado.")
+        except Exception as exc:
+            self.host.show_error(str(exc))
 
     def compare(self) -> None:
         before, after = self.file.text().strip(), self.compare_file.text().strip()

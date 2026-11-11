@@ -1,0 +1,884 @@
+[
+ {
+  "classe": "DrawPicture",
+  "typelib": "OverrideFillMode",
+  "tipo": "EnumFillOverrideMode",
+  "prj": "FillOverrideMode",
+  "origem": "automatico"
+ },
+ {
+  "classe": "DrawPicture",
+  "typelib": "EnableOverrideLineColor",
+  "tipo": "Boolean",
+  "prj": "OverrideLineColorEnabled",
+  "origem": "automatico"
+ },
+ {
+  "classe": "DrawString",
+  "typelib": "KeepFormatWhenEditing",
+  "tipo": "kfKeepFormat",
+  "prj": "KeepFormat",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "FrameSet",
+  "typelib": "SplitValue",
+  "tipo": "Variant",
+  "prj": "Value",
+  "origem": "automatico"
+ },
+ {
+  "classe": "Screen",
+  "typelib": "ScreenAlignment",
+  "tipo": "EPanelAlignment",
+  "prj": "PanelAlignment",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "Screen",
+  "typelib": "AllowZoomChange",
+  "tipo": "EPropPermission",
+  "prj": "ZoomChangePermission",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "Screen",
+  "typelib": "AllowContextMenu",
+  "tipo": "EPropPermission",
+  "prj": "ContextMenuPermission",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "Viewer",
+  "typelib": "AllowZoomChange",
+  "tipo": "Boolean",
+  "prj": "ZoomChangePermission",
+  "origem": "automatico"
+ },
+ {
+  "classe": "Viewer",
+  "typelib": "ScreenAlignment",
+  "tipo": "EPanelAlignment",
+  "prj": "PanelAlignment",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "XControl",
+  "typelib": "CustomConfigText",
+  "tipo": "String",
+  "prj": "CustomConfig",
+  "origem": "automatico"
+ },
+ {
+  "classe": "XFolder",
+  "typelib": "CustomConfigText",
+  "tipo": "String",
+  "prj": "CustomConfig",
+  "origem": "automatico"
+ },
+ {
+  "classe": "XObject",
+  "typelib": "CustomConfigText",
+  "tipo": "String",
+  "prj": "CustomConfig",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AlarmServer",
+  "typelib": "DiscardInterval",
+  "tipo": "Long",
+  "prj": "DiscardUnits",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "AlarmServer",
+  "typelib": "BackupDiscardInterval",
+  "tipo": "Long",
+  "prj": "BackupDiscardUnits",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "AlarmServer",
+  "typelib": "ExcludeSuppressedAlarmsOnCounters",
+  "tipo": "Boolean",
+  "prj": "ExcludeSuppressedCounters",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AlarmServer",
+  "typelib": "SuppressedAlarmsLogging",
+  "tipo": "Boolean",
+  "prj": "LoggingAlarmsSuppressed",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "LevelDeadBand",
+  "tipo": "Double",
+  "prj": "DeadBand",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "LoLo",
+  "tipo": "Boolean",
+  "prj": "LoLo.Enabled",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "LoLoLimit",
+  "tipo": "Double",
+  "prj": "LoLo.Limit",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "LoLoMessageText",
+  "tipo": "String",
+  "prj": "LoLo.Message",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "LoLoSeverity",
+  "tipo": "EAlarmSeverity",
+  "prj": "LoLo.Severity",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "LoLoAckRequired",
+  "tipo": "Boolean",
+  "prj": "LoLo.Ack",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "LoLoEvent",
+  "tipo": "Boolean",
+  "prj": "LoLo.Event",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "LoLoAllowShelving",
+  "tipo": "Boolean",
+  "prj": "LoLo.AllowShelving",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "LoLoShelveMaxDuration",
+  "tipo": "Long",
+  "prj": "LoLo.ShelveMaxDuration",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "LoLoShelveMaxCount",
+  "tipo": "Long",
+  "prj": "LoLo.ShelveMaxCount",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "Lo",
+  "tipo": "Boolean",
+  "prj": "Lo.Enabled",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "LoLimit",
+  "tipo": "Double",
+  "prj": "Lo.Limit",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "LoMessageText",
+  "tipo": "String",
+  "prj": "Lo.Message",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "LoSeverity",
+  "tipo": "EAlarmSeverity",
+  "prj": "Lo.Severity",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "LoAckRequired",
+  "tipo": "Boolean",
+  "prj": "Lo.Ack",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "LoEvent",
+  "tipo": "Boolean",
+  "prj": "Lo.Event",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "LoAllowShelving",
+  "tipo": "Boolean",
+  "prj": "Lo.AllowShelving",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "LoShelveMaxDuration",
+  "tipo": "Long",
+  "prj": "Lo.ShelveMaxDuration",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "LoShelveMaxCount",
+  "tipo": "Long",
+  "prj": "Lo.ShelveMaxCount",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "Hi",
+  "tipo": "Boolean",
+  "prj": "Hi.Enabled",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "HiLimit",
+  "tipo": "Double",
+  "prj": "Hi.Limit",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "HiMessageText",
+  "tipo": "String",
+  "prj": "Hi.Message",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "HiSeverity",
+  "tipo": "EAlarmSeverity",
+  "prj": "Hi.Severity",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "HiAckRequired",
+  "tipo": "Boolean",
+  "prj": "Hi.Ack",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "HiEvent",
+  "tipo": "Boolean",
+  "prj": "Hi.Event",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "HiAllowShelving",
+  "tipo": "Boolean",
+  "prj": "Hi.AllowShelving",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "HiShelveMaxDuration",
+  "tipo": "Long",
+  "prj": "Hi.ShelveMaxDuration",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "HiShelveMaxCount",
+  "tipo": "Long",
+  "prj": "Hi.ShelveMaxCount",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "HiHi",
+  "tipo": "Boolean",
+  "prj": "HiHi.Enabled",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "HiHiLimit",
+  "tipo": "Double",
+  "prj": "HiHi.Limit",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "HiHiMessageText",
+  "tipo": "String",
+  "prj": "HiHi.Message",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "HiHiSeverity",
+  "tipo": "EAlarmSeverity",
+  "prj": "HiHi.Severity",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "HiHiAckRequired",
+  "tipo": "Boolean",
+  "prj": "HiHi.Ack",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "HiHiEvent",
+  "tipo": "Boolean",
+  "prj": "HiHi.Event",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "HiHiAllowShelving",
+  "tipo": "Boolean",
+  "prj": "HiHi.AllowShelving",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "HiHiShelveMaxDuration",
+  "tipo": "Long",
+  "prj": "HiHi.ShelveMaxDuration",
+  "origem": "automatico"
+ },
+ {
+  "classe": "AnalogLevelAlarm",
+  "typelib": "HiHiShelveMaxCount",
+  "tipo": "Long",
+  "prj": "HiHi.ShelveMaxCount",
+  "origem": "automatico"
+ },
+ {
+  "classe": "DBServer",
+  "typelib": "nRetries",
+  "tipo": "Long",
+  "prj": "Retries",
+  "origem": "automatico"
+ },
+ {
+  "classe": "DigitalAlarm",
+  "typelib": "DigitalReturnMessageText",
+  "tipo": "String",
+  "prj": "ReturnMessageText",
+  "origem": "automatico"
+ },
+ {
+  "classe": "DigitalAlarm",
+  "typelib": "DigitalLimit",
+  "tipo": "Variant",
+  "prj": "Limit",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "DigitalAlarm",
+  "typelib": "DigitalMessageText",
+  "tipo": "String",
+  "prj": "Message",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "DigitalAlarm",
+  "typelib": "DigitalSeverity",
+  "tipo": "EAlarmSeverity",
+  "prj": "Severity",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "DigitalAlarm",
+  "typelib": "DigitalAckRequired",
+  "tipo": "Boolean",
+  "prj": "Ack",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "DigitalAlarm",
+  "typelib": "DigitalAllowShelving",
+  "tipo": "Boolean",
+  "prj": "AllowShelving",
+  "origem": "automatico"
+ },
+ {
+  "classe": "DigitalAlarm",
+  "typelib": "DigitalShelveMaxDuration",
+  "tipo": "Long",
+  "prj": "ShelveMaxDuration",
+  "origem": "automatico"
+ },
+ {
+  "classe": "DigitalAlarm",
+  "typelib": "DigitalShelveMaxCount",
+  "tipo": "Long",
+  "prj": "ShelveMaxCount",
+  "origem": "automatico"
+ },
+ {
+  "classe": "DiscreteAlarm",
+  "typelib": "DiscreteReturnMessageText",
+  "tipo": "String",
+  "prj": "ReturnMessageText",
+  "origem": "automatico"
+ },
+ {
+  "classe": "Hist",
+  "typelib": "DiscardInterval",
+  "tipo": "Long",
+  "prj": "DiscardUnits",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "Hist",
+  "typelib": "BackupDiscardInterval",
+  "tipo": "Long",
+  "prj": "BackupDiscardUnits",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "Hist",
+  "typelib": "UseTagQuality",
+  "tipo": "Boolean",
+  "prj": "UseQualityTag",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "HistIndex",
+  "typelib": "IndexName",
+  "tipo": "String",
+  "prj": "Index",
+  "origem": "automatico"
+ },
+ {
+  "classe": "IOBlockElement",
+  "typelib": "PercentDeadband",
+  "tipo": "Double",
+  "prj": "PercDeadband",
+  "origem": "automatico"
+ },
+ {
+  "classe": "IOBlockElement",
+  "typelib": "EnableScaling",
+  "tipo": "Boolean",
+  "prj": "Scaling",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "IOBlockElement",
+  "typelib": "DeviceLow",
+  "tipo": "Double",
+  "prj": "DevLow",
+  "origem": "automatico"
+ },
+ {
+  "classe": "IOBlockElement",
+  "typelib": "DeviceHigh",
+  "tipo": "Double",
+  "prj": "DevHigh",
+  "origem": "automatico"
+ },
+ {
+  "classe": "IODriver",
+  "typelib": "DriverLocation",
+  "tipo": "BSTRFILE",
+  "prj": "_DriverLocation",
+  "origem": "automatico"
+ },
+ {
+  "classe": "IODriver",
+  "typelib": "WriteFeedbackMode",
+  "tipo": "WriteFeedbackModes",
+  "prj": "WriteMode",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "IODriver",
+  "typelib": "EnableReadGrouping",
+  "tipo": "Boolean",
+  "prj": "ReadGrouping",
+  "origem": "automatico"
+ },
+ {
+  "classe": "IODriver",
+  "typelib": "DisableIOServerPool",
+  "tipo": "Boolean",
+  "prj": "DisablePool",
+  "origem": "automatico"
+ },
+ {
+  "classe": "IOTag",
+  "typelib": "PercentDeadband",
+  "tipo": "Double",
+  "prj": "PercDeadband",
+  "origem": "automatico"
+ },
+ {
+  "classe": "IOTag",
+  "typelib": "EnableScaling",
+  "tipo": "Boolean",
+  "prj": "Scaling",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "IOTag",
+  "typelib": "DeviceLow",
+  "tipo": "Double",
+  "prj": "DevLow",
+  "origem": "automatico"
+ },
+ {
+  "classe": "IOTag",
+  "typelib": "DeviceHigh",
+  "tipo": "Double",
+  "prj": "DevHigh",
+  "origem": "automatico"
+ },
+ {
+  "classe": "UaDriver",
+  "typelib": "EndpointURL",
+  "tipo": "String",
+  "prj": "URL",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "UaDriver",
+  "typelib": "SecurityMode",
+  "tipo": "UaSecurityModes",
+  "prj": "SecMode",
+  "origem": "automatico"
+ },
+ {
+  "classe": "UaDriver",
+  "typelib": "SecurityPolicy",
+  "tipo": "UaSecurityPolicies",
+  "prj": "SecPol",
+  "origem": "automatico"
+ },
+ {
+  "classe": "UaDriver",
+  "typelib": "UserName",
+  "tipo": "String",
+  "prj": "User",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "UaDriver",
+  "typelib": "Password",
+  "tipo": "BSTRPASSWORD",
+  "prj": "Pwd",
+  "origem": "automatico"
+ },
+ {
+  "classe": "UaDriver",
+  "typelib": "TimeoutCall",
+  "tipo": "Long",
+  "prj": "CallTimeout",
+  "origem": "automatico"
+ },
+ {
+  "classe": "UaDriver",
+  "typelib": "TimeoutConnection",
+  "tipo": "Long",
+  "prj": "ConnTimeout",
+  "origem": "automatico"
+ },
+ {
+  "classe": "UaDriver",
+  "typelib": "TimeoutSession",
+  "tipo": "Long",
+  "prj": "SessTimeout",
+  "origem": "automatico"
+ },
+ {
+  "classe": "UaDriver",
+  "typelib": "PublishLimit",
+  "tipo": "Long",
+  "prj": "PubLimit",
+  "origem": "automatico"
+ },
+ {
+  "classe": "UaDriver",
+  "typelib": "WriteFeedbackMode",
+  "tipo": "WriteFeedbackModes",
+  "prj": "WfMode",
+  "origem": "automatico"
+ },
+ {
+  "classe": "UaDriver",
+  "typelib": "WriteValueMode",
+  "tipo": "EWriteValueMode",
+  "prj": "WvMode",
+  "origem": "automatico"
+ },
+ {
+  "classe": "UaDriver",
+  "typelib": "MaxNodesPerClientCall",
+  "tipo": "Long",
+  "prj": "MaxNodesCall",
+  "origem": "automatico"
+ },
+ {
+  "classe": "UaDriver",
+  "typelib": "OverrideEndpointURLHost",
+  "tipo": "Boolean",
+  "prj": "OverrideURLHost",
+  "origem": "automatico"
+ },
+ {
+  "classe": "UaTag",
+  "typelib": "DeviceLow",
+  "tipo": "Double",
+  "prj": "DevLo",
+  "origem": "automatico"
+ },
+ {
+  "classe": "UaTag",
+  "typelib": "DeviceHigh",
+  "tipo": "Double",
+  "prj": "DevHi",
+  "origem": "automatico"
+ },
+ {
+  "classe": "UaTag",
+  "typelib": "EULow",
+  "tipo": "Double",
+  "prj": "EULo",
+  "origem": "automatico"
+ },
+ {
+  "classe": "UaTag",
+  "typelib": "EUHigh",
+  "tipo": "Double",
+  "prj": "EUHi",
+  "origem": "automatico"
+ },
+ {
+  "classe": "UaTag",
+  "typelib": "EnableDriverEvent",
+  "tipo": "Boolean",
+  "prj": "DriverEvent",
+  "origem": "automatico"
+ },
+ {
+  "classe": "UaTag",
+  "typelib": "SyncWrite",
+  "tipo": "Boolean",
+  "prj": "SyncW",
+  "origem": "automatico"
+ },
+ {
+  "classe": "E3Alarm",
+  "typelib": "AreaFilter",
+  "tipo": "String",
+  "prj": "Filter1",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "E3Alarm",
+  "typelib": "ShowConnectionStatusBar",
+  "tipo": "Boolean",
+  "prj": "ShowConnecBar",
+  "origem": "automatico"
+ },
+ {
+  "classe": "E3Alarm",
+  "typelib": "ConnectionStatusBarColor",
+  "tipo": "OLE_COLOR",
+  "prj": "ConnStatusColor",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "E3Alarm",
+  "typelib": "PictureNotConnected",
+  "tipo": "BSTRPICTURE",
+  "prj": "PictureConnectionError",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "E3Alarm",
+  "typelib": "PictureUnknown",
+  "tipo": "BSTRPICTURE",
+  "prj": "PictureUnknownConnection",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "E3Alarm",
+  "typelib": "AllowDeleteUnboundAlarms",
+  "tipo": "Boolean",
+  "prj": "AllowDeleteAllUnbound",
+  "origem": "automatico"
+ },
+ {
+  "classe": "E3Chart",
+  "typelib": "VerScaleFormat",
+  "tipo": "BSTRFORMAT",
+  "prj": "FormatProp_#",
+  "origem": "automatico"
+ },
+ {
+  "classe": "E3Chart",
+  "typelib": "HorScaleEnd",
+  "tipo": "Variant",
+  "prj": "ScaleDateEndProp_#",
+  "origem": "automatico"
+ },
+ {
+  "classe": "E3Chart",
+  "typelib": "HorScaleBegin",
+  "tipo": "Variant",
+  "prj": "ScaleDateBeginProp_#",
+  "origem": "automatico"
+ },
+ {
+  "classe": "E3Chart",
+  "typelib": "VerScaleEnd",
+  "tipo": "Variant",
+  "prj": "ScaleEndProp_#",
+  "origem": "automatico"
+ },
+ {
+  "classe": "E3Chart",
+  "typelib": "VerScaleBegin",
+  "tipo": "Variant",
+  "prj": "ScaleBeginProp_#",
+  "origem": "automatico"
+ },
+ {
+  "classe": "E3Chart",
+  "typelib": "HorGridColor",
+  "tipo": "OLE_COLOR",
+  "prj": "ColorProp_#",
+  "origem": "automatico"
+ },
+ {
+  "classe": "E3Chart",
+  "typelib": "VerGridColor",
+  "tipo": "OLE_COLOR",
+  "prj": "GridColorProp_#",
+  "origem": "automatico"
+ },
+ {
+  "classe": "E3Chart",
+  "typelib": "CursorSearchStyle",
+  "tipo": "SearchStyles",
+  "prj": "SearchStyle",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "E3Chart",
+  "typelib": "VerAxisTitle",
+  "tipo": "String",
+  "prj": "TitleProp_#",
+  "origem": "automatico"
+ },
+ {
+  "classe": "E3Browser",
+  "typelib": "AllowColumnResize",
+  "tipo": "Boolean",
+  "prj": "ColumnResize",
+  "origem": "automatico"
+ },
+ {
+  "classe": "E3Browser",
+  "typelib": "AllowRowResize",
+  "tipo": "Boolean",
+  "prj": "RowResize",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "E3Browser",
+  "typelib": "HeaderTextAlignment",
+  "tipo": "enumBrowserHeaderAlignment",
+  "prj": "HeaderAlignment",
+  "origem": "automatico"
+ },
+ {
+  "classe": "DBSqlConnection",
+  "typelib": "Server",
+  "tipo": "String",
+  "prj": "_Server",
+  "origem": "automatico"
+ },
+ {
+  "classe": "DBSqlConnection",
+  "typelib": "Password",
+  "tipo": "String",
+  "prj": "_Pwd",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "DBSqlConnection",
+  "typelib": "NetLibrary",
+  "tipo": "SqlNetworkLibrary",
+  "prj": "_NetLibrary",
+  "origem": "automatico"
+ },
+ {
+  "classe": "DBSqlConnection",
+  "typelib": "CustomConnectionString",
+  "tipo": "String",
+  "prj": "_ConnString",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "DBSqlConnection",
+  "typelib": "UseCustomConnectionString",
+  "tipo": "Boolean",
+  "prj": "_UseConnString",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "DBSqlConnection",
+  "typelib": "Provider",
+  "tipo": "SqlProvider",
+  "prj": "_Provider",
+  "origem": "automatico"
+ },
+ {
+  "classe": "E3Query",
+  "typelib": "FunctionSubType",
+  "tipo": "FunctionSubType",
+  "prj": "HistSubType",
+  "origem": "automatico"
+ },
+ {
+  "classe": "E3Query",
+  "typelib": "IgnoreQuality",
+  "tipo": "Boolean",
+  "prj": "Quality",
+  "origem": "automatico"
+ },
+ {
+  "classe": "E3Query",
+  "typelib": "UaQueryType",
+  "tipo": "UaQueryType",
+  "prj": "UaRaw",
+  "origem": "curadoria"
+ },
+ {
+  "classe": "E3Query",
+  "typelib": "QueryCacheOverrideDomainConfig",
+  "tipo": "Boolean",
+  "prj": "QueryCacheOverrideDomConfig",
+  "origem": "automatico"
+ }
+]

@@ -6,6 +6,10 @@ import pytest
 
 from engineering_copilot_studio import skills
 from engineering_copilot_studio.e3.audit import audit_project, sha256_file
+from engineering_copilot_studio.e3.comparator_launcher import (
+    comparator_directory,
+    comparator_script,
+)
 
 
 def test_user_skill_import_is_declarative(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
@@ -32,3 +36,12 @@ def test_e3_rejects_unsupported_file_without_modifying_it(tmp_path: Path) -> Non
     with pytest.raises(ValueError):
         audit_project(str(source))
     assert sha256_file(source) == before
+
+
+def test_migrated_original_comparator_is_complete() -> None:
+    directory = comparator_directory()
+    assert (directory / "comparar.py").is_file()
+    assert (directory / "e3reader.py").is_file()
+    assert (directory / "e3base.py").is_file()
+    assert (directory / "patterns" / "modelo.json").is_file()
+    assert comparator_script().name == "E3_Comparador_Visual.ps1"

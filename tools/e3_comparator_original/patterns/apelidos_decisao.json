@@ -1,0 +1,1292 @@
+{
+ "DrawPicture|OverrideFillMode": {
+  "prj": "FillOverrideMode",
+  "status": "confirmado",
+  "motivo": "vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (override fill)",
+  "padrao_manual": null,
+  "mais_comum": "0",
+  "pontos": 3,
+  "tipo": "EnumFillOverrideMode",
+  "tipo_gravado": "ULong"
+ },
+ "DrawPicture|EnableOverrideLineColor": {
+  "prj": "OverrideLineColorEnabled",
+  "status": "confirmado",
+  "motivo": "vocabulário: 3/3 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (override line color)",
+  "padrao_manual": null,
+  "mais_comum": "0",
+  "pontos": 3,
+  "tipo": "Boolean",
+  "tipo_gravado": "ULong"
+ },
+ "DrawString|KeepFormatWhenEditing": {
+  "prj": "KeepFormat",
+  "status": "confirmado",
+  "motivo": "curadoria: mesmos termos | automático: vocabulário: 2/2 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": null,
+  "mais_comum": "0",
+  "pontos": 1,
+  "tipo": "kfKeepFormat",
+  "tipo_gravado": "UShort"
+ },
+ "FrameSet|SplitValue": {
+  "prj": "Value",
+  "status": "inconclusivo",
+  "motivo": "vocabulário: 1/1 palavras do nome gravado aparecem na descrição; sem entrada da propriedade no manual",
+  "padrao_manual": null,
+  "mais_comum": "0.0",
+  "pontos": 1,
+  "tipo": "Variant",
+  "tipo_gravado": "Double"
+ },
+ "Screen|ScreenAlignment": {
+  "prj": "PanelAlignment",
+  "status": "confirmado",
+  "motivo": "curadoria: Screen = Panel no E3 (arquivo Panel.e3); enum EPanelAlignment | automático: sem evidência",
+  "padrao_manual": null,
+  "mais_comum": "0",
+  "pontos": 0,
+  "tipo": "EPanelAlignment",
+  "tipo_gravado": "ULong"
+ },
+ "Screen|AllowZoomChange": {
+  "prj": "ZoomChangePermission",
+  "status": "confirmado",
+  "motivo": "curadoria: mesmas palavras (zoom/change/permission); enum EPropPermission gravado como inteiro | automático: valor mais comum gravado (0) difere do padrão do manual (True): configuração do usuário, sem peso; vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (zoom change)",
+  "padrao_manual": "True",
+  "mais_comum": "0",
+  "pontos": 3,
+  "tipo": "EPropPermission",
+  "tipo_gravado": "ULong"
+ },
+ "Screen|AllowContextMenu": {
+  "prj": "ContextMenuPermission",
+  "status": "confirmado",
+  "motivo": "curadoria: mesmas palavras (context menu/permission); enum EPropPermission | automático: valor mais comum gravado (0) difere do padrão do manual (True): configuração do usuário, sem peso; vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (context menu)",
+  "padrao_manual": "True",
+  "mais_comum": "0",
+  "pontos": 3,
+  "tipo": "EPropPermission",
+  "tipo_gravado": "ULong"
+ },
+ "Viewer|AllowZoomChange": {
+  "prj": "ZoomChangePermission",
+  "status": "confirmado",
+  "motivo": "padrão do manual (True) = valor mais comum gravado (1); vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (zoom change)",
+  "padrao_manual": "True",
+  "mais_comum": "1",
+  "pontos": 5,
+  "tipo": "Boolean",
+  "tipo_gravado": "Byte"
+ },
+ "Viewer|ScreenAlignment": {
+  "prj": "PanelAlignment",
+  "status": "confirmado",
+  "motivo": "curadoria: idem Screen | automático: sem evidência",
+  "padrao_manual": null,
+  "mais_comum": "1",
+  "pontos": 0,
+  "tipo": "EPanelAlignment",
+  "tipo_gravado": "ULong"
+ },
+ "XControl|CustomConfigText": {
+  "prj": "CustomConfig",
+  "status": "confirmado",
+  "motivo": "vocabulário: 2/2 palavras do nome gravado aparecem na descrição; sem entrada da propriedade no manual; nomes muito parecidos (0.86)",
+  "padrao_manual": null,
+  "mais_comum": null,
+  "pontos": 2,
+  "tipo": "String",
+  "tipo_gravado": "String"
+ },
+ "XFolder|CustomConfigText": {
+  "prj": "CustomConfig",
+  "status": "confirmado",
+  "motivo": "vocabulário: 2/2 palavras do nome gravado aparecem na descrição; sem entrada da propriedade no manual; nomes muito parecidos (0.86)",
+  "padrao_manual": null,
+  "mais_comum": null,
+  "pontos": 2,
+  "tipo": "String",
+  "tipo_gravado": "String"
+ },
+ "XObject|CustomConfigText": {
+  "prj": "CustomConfig",
+  "status": "confirmado",
+  "motivo": "vocabulário: 2/2 palavras do nome gravado aparecem na descrição; sem entrada da propriedade no manual; nomes muito parecidos (0.86)",
+  "padrao_manual": null,
+  "mais_comum": null,
+  "pontos": 2,
+  "tipo": "String",
+  "tipo_gravado": "String"
+ },
+ "AlarmServer|DiscardInterval": {
+  "prj": "DiscardUnits",
+  "status": "confirmado",
+  "motivo": "curadoria: mesma lógica de BackupDiscardInterval/BackupDiscardUnits: quantidade de unidades + DiscardTimeUnit | automático: valor mais comum gravado (36) difere do padrão do manual (1 (one time unit ind): configuração do usuário, sem peso; vocabulário: 2/2 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": "1 (one time unit indicated by the 256 Server Objects DiscardTimeUnit property)",
+  "mais_comum": "36",
+  "pontos": 1,
+  "tipo": "Long",
+  "tipo_gravado": "ULong"
+ },
+ "AlarmServer|BackupDiscardInterval": {
+  "prj": "BackupDiscardUnits",
+  "status": "confirmado",
+  "motivo": "curadoria: idem Hist (quantidade de unidades de tempo + BackupDiscardTimeUnit) | automático: valor mais comum gravado (24) difere do padrão do manual (12 (twelve time unit): configuração do usuário, sem peso; vocabulário: 3/3 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": "12 (twelve time units indicated by the BackupDiscardTimeUnit property)",
+  "mais_comum": "24",
+  "pontos": 1,
+  "tipo": "Long",
+  "tipo_gravado": "ULong"
+ },
+ "AlarmServer|ExcludeSuppressedAlarmsOnCounters": {
+  "prj": "ExcludeSuppressedCounters",
+  "status": "confirmado",
+  "motivo": "valor mais comum gravado (1) difere do padrão do manual (False): configuração do usuário, sem peso; vocabulário: 3/3 palavras do nome gravado aparecem na descrição; nomes muito parecidos (0.86)",
+  "padrao_manual": "False",
+  "mais_comum": "1",
+  "pontos": 2,
+  "tipo": "Boolean",
+  "tipo_gravado": "ULong"
+ },
+ "AlarmServer|SuppressedAlarmsLogging": {
+  "prj": "LoggingAlarmsSuppressed",
+  "status": "confirmado",
+  "motivo": "curadoria: mesmas palavras em outra ordem | automático: valor mais comum gravado (0) difere do padrão do manual (True, that is, Alarm): configuração do usuário, sem peso; vocabulário: 3/3 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (suppressed alarms logging)",
+  "padrao_manual": "True, that is, Alarms are updated on the database",
+  "mais_comum": "0",
+  "pontos": 3,
+  "tipo": "Boolean",
+  "tipo_gravado": "ULong"
+ },
+ "AnalogLevelAlarm|LevelDeadBand": {
+  "prj": "DeadBand",
+  "status": "confirmado",
+  "motivo": "curadoria: banda morta do alarme de nível | automático: vocabulário: 2/2 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": null,
+  "mais_comum": "0.0",
+  "pontos": 1,
+  "tipo": "Double",
+  "tipo_gravado": "Double"
+ },
+ "AnalogLevelAlarm|LoLo": {
+  "prj": "LoLo.Enabled",
+  "status": "confirmado",
+  "motivo": "vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (low low)",
+  "padrao_manual": null,
+  "mais_comum": "1",
+  "pontos": 3,
+  "tipo": "Boolean",
+  "tipo_gravado": "Byte"
+ },
+ "AnalogLevelAlarm|LoLoLimit": {
+  "prj": "LoLo.Limit",
+  "status": "confirmado",
+  "motivo": "vocabulário: 3/3 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (low low limit); nomes muito parecidos (0.95)",
+  "padrao_manual": null,
+  "mais_comum": "88.0",
+  "pontos": 4,
+  "tipo": "Double",
+  "tipo_gravado": "Double"
+ },
+ "AnalogLevelAlarm|LoLoMessageText": {
+  "prj": "LoLo.Message",
+  "status": "confirmado",
+  "motivo": "vocabulário: 3/3 palavras do nome gravado aparecem na descrição; nomes muito parecidos (0.81)",
+  "padrao_manual": null,
+  "mais_comum": "Risco de Subtensão",
+  "pontos": 2,
+  "tipo": "String",
+  "tipo_gravado": "String"
+ },
+ "AnalogLevelAlarm|LoLoSeverity": {
+  "prj": "LoLo.Severity",
+  "status": "confirmado",
+  "motivo": "vocabulário: 3/3 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (low low severity); nomes muito parecidos (0.96)",
+  "padrao_manual": null,
+  "mais_comum": "-2",
+  "pontos": 4,
+  "tipo": "EAlarmSeverity",
+  "tipo_gravado": "Long"
+ },
+ "AnalogLevelAlarm|LoLoAckRequired": {
+  "prj": "LoLo.Ack",
+  "status": "confirmado",
+  "motivo": "curadoria: mesmo padrão já confirmado em LoLo/HiHi (Xx + MessageText/AckRequired = Xx.Message/Xx.Ack) | automático: vocabulário: 3/3 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": null,
+  "mais_comum": "1",
+  "pontos": 1,
+  "tipo": "Boolean",
+  "tipo_gravado": "Byte"
+ },
+ "AnalogLevelAlarm|LoLoEvent": {
+  "prj": "LoLo.Event",
+  "status": "confirmado",
+  "motivo": "vocabulário: 3/3 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (low low event); nomes muito parecidos (0.95)",
+  "padrao_manual": null,
+  "mais_comum": "0",
+  "pontos": 4,
+  "tipo": "Boolean",
+  "tipo_gravado": "Byte"
+ },
+ "AnalogLevelAlarm|LoLoAllowShelving": {
+  "prj": "LoLo.AllowShelving",
+  "status": "confirmado",
+  "motivo": "padrão do manual (True) = valor mais comum gravado (1); vocabulário: 3/3 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (low low shelving); nomes muito parecidos (0.97)",
+  "padrao_manual": "True",
+  "mais_comum": "1",
+  "pontos": 6,
+  "tipo": "Boolean",
+  "tipo_gravado": "Byte"
+ },
+ "AnalogLevelAlarm|LoLoShelveMaxDuration": {
+  "prj": "LoLo.ShelveMaxDuration",
+  "status": "confirmado",
+  "motivo": "padrão do manual (60 (one hour)) = valor mais comum gravado (60); vocabulário: 5/5 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (low low shelve max duration); nomes muito parecidos (0.98)",
+  "padrao_manual": "60 (one hour)",
+  "mais_comum": "60",
+  "pontos": 6,
+  "tipo": "Long",
+  "tipo_gravado": "ULong"
+ },
+ "AnalogLevelAlarm|LoLoShelveMaxCount": {
+  "prj": "LoLo.ShelveMaxCount",
+  "status": "confirmado",
+  "motivo": "padrão do manual (0 (zero), that is, n) = valor mais comum gravado (0); vocabulário: 5/5 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (low low shelve max count); nomes muito parecidos (0.97)",
+  "padrao_manual": "0 (zero), that is, no limits for shelving",
+  "mais_comum": "0",
+  "pontos": 6,
+  "tipo": "Long",
+  "tipo_gravado": "UShort"
+ },
+ "AnalogLevelAlarm|Lo": {
+  "prj": "Lo.Enabled",
+  "status": "confirmado",
+  "motivo": "vocabulário: 1/1 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (low)",
+  "padrao_manual": null,
+  "mais_comum": "1",
+  "pontos": 3,
+  "tipo": "Boolean",
+  "tipo_gravado": "Byte"
+ },
+ "AnalogLevelAlarm|LoLimit": {
+  "prj": "Lo.Limit",
+  "status": "confirmado",
+  "motivo": "vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (low limit); nomes muito parecidos (0.93)",
+  "padrao_manual": null,
+  "mais_comum": "93.0",
+  "pontos": 4,
+  "tipo": "Double",
+  "tipo_gravado": "Double"
+ },
+ "AnalogLevelAlarm|LoMessageText": {
+  "prj": "Lo.Message",
+  "status": "confirmado",
+  "motivo": "curadoria: mesmo padrão já confirmado em LoLo/HiHi (Xx + MessageText/AckRequired = Xx.Message/Xx.Ack) | automático: vocabulário: 2/2 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": null,
+  "mais_comum": "Monitorar Tensão Baixa",
+  "pontos": 1,
+  "tipo": "String",
+  "tipo_gravado": "String"
+ },
+ "AnalogLevelAlarm|LoSeverity": {
+  "prj": "Lo.Severity",
+  "status": "confirmado",
+  "motivo": "vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (low severity); nomes muito parecidos (0.95)",
+  "padrao_manual": null,
+  "mais_comum": "0",
+  "pontos": 4,
+  "tipo": "EAlarmSeverity",
+  "tipo_gravado": "Long"
+ },
+ "AnalogLevelAlarm|LoAckRequired": {
+  "prj": "Lo.Ack",
+  "status": "confirmado",
+  "motivo": "curadoria: mesmo padrão já confirmado em LoLo/HiHi (Xx + MessageText/AckRequired = Xx.Message/Xx.Ack) | automático: vocabulário: 2/2 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": null,
+  "mais_comum": "0",
+  "pontos": 1,
+  "tipo": "Boolean",
+  "tipo_gravado": "Byte"
+ },
+ "AnalogLevelAlarm|LoEvent": {
+  "prj": "Lo.Event",
+  "status": "confirmado",
+  "motivo": "vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (low event); nomes muito parecidos (0.93)",
+  "padrao_manual": null,
+  "mais_comum": "0",
+  "pontos": 4,
+  "tipo": "Boolean",
+  "tipo_gravado": "Byte"
+ },
+ "AnalogLevelAlarm|LoAllowShelving": {
+  "prj": "Lo.AllowShelving",
+  "status": "confirmado",
+  "motivo": "padrão do manual (True) = valor mais comum gravado (1); vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (low shelving); nomes muito parecidos (0.97)",
+  "padrao_manual": "True",
+  "mais_comum": "1",
+  "pontos": 6,
+  "tipo": "Boolean",
+  "tipo_gravado": "Byte"
+ },
+ "AnalogLevelAlarm|LoShelveMaxDuration": {
+  "prj": "Lo.ShelveMaxDuration",
+  "status": "confirmado",
+  "motivo": "padrão do manual (60 (one hour)) = valor mais comum gravado (60); vocabulário: 4/4 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (low shelve max duration); nomes muito parecidos (0.97)",
+  "padrao_manual": "60 (one hour)",
+  "mais_comum": "60",
+  "pontos": 6,
+  "tipo": "Long",
+  "tipo_gravado": "ULong"
+ },
+ "AnalogLevelAlarm|LoShelveMaxCount": {
+  "prj": "Lo.ShelveMaxCount",
+  "status": "confirmado",
+  "motivo": "padrão do manual (0 (zero), that is, n) = valor mais comum gravado (0); vocabulário: 4/4 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (low shelve max count); nomes muito parecidos (0.97)",
+  "padrao_manual": "0 (zero), that is, no limits for shelving",
+  "mais_comum": "0",
+  "pontos": 6,
+  "tipo": "Long",
+  "tipo_gravado": "UShort"
+ },
+ "AnalogLevelAlarm|Hi": {
+  "prj": "Hi.Enabled",
+  "status": "confirmado",
+  "motivo": "vocabulário: 1/1 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (high)",
+  "padrao_manual": null,
+  "mais_comum": "1",
+  "pontos": 3,
+  "tipo": "Boolean",
+  "tipo_gravado": "Byte"
+ },
+ "AnalogLevelAlarm|HiLimit": {
+  "prj": "Hi.Limit",
+  "status": "confirmado",
+  "motivo": "vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (high limit); nomes muito parecidos (0.93)",
+  "padrao_manual": null,
+  "mais_comum": "107.0",
+  "pontos": 4,
+  "tipo": "Double",
+  "tipo_gravado": "Double"
+ },
+ "AnalogLevelAlarm|HiMessageText": {
+  "prj": "Hi.Message",
+  "status": "confirmado",
+  "motivo": "curadoria: mesmo padrão já confirmado em LoLo/HiHi (Xx + MessageText/AckRequired = Xx.Message/Xx.Ack) | automático: vocabulário: 2/2 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": null,
+  "mais_comum": "Monitorar Tensão Alta",
+  "pontos": 1,
+  "tipo": "String",
+  "tipo_gravado": "String"
+ },
+ "AnalogLevelAlarm|HiSeverity": {
+  "prj": "Hi.Severity",
+  "status": "confirmado",
+  "motivo": "vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (high severity); nomes muito parecidos (0.95)",
+  "padrao_manual": null,
+  "mais_comum": "0",
+  "pontos": 4,
+  "tipo": "EAlarmSeverity",
+  "tipo_gravado": "Long"
+ },
+ "AnalogLevelAlarm|HiAckRequired": {
+  "prj": "Hi.Ack",
+  "status": "confirmado",
+  "motivo": "curadoria: mesmo padrão já confirmado em LoLo/HiHi (Xx + MessageText/AckRequired = Xx.Message/Xx.Ack) | automático: vocabulário: 2/2 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": null,
+  "mais_comum": "0",
+  "pontos": 1,
+  "tipo": "Boolean",
+  "tipo_gravado": "Byte"
+ },
+ "AnalogLevelAlarm|HiEvent": {
+  "prj": "Hi.Event",
+  "status": "confirmado",
+  "motivo": "vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (high event); nomes muito parecidos (0.93)",
+  "padrao_manual": null,
+  "mais_comum": "0",
+  "pontos": 4,
+  "tipo": "Boolean",
+  "tipo_gravado": "Byte"
+ },
+ "AnalogLevelAlarm|HiAllowShelving": {
+  "prj": "Hi.AllowShelving",
+  "status": "confirmado",
+  "motivo": "padrão do manual (True) = valor mais comum gravado (1); vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (high shelving); nomes muito parecidos (0.97)",
+  "padrao_manual": "True",
+  "mais_comum": "1",
+  "pontos": 6,
+  "tipo": "Boolean",
+  "tipo_gravado": "Byte"
+ },
+ "AnalogLevelAlarm|HiShelveMaxDuration": {
+  "prj": "Hi.ShelveMaxDuration",
+  "status": "confirmado",
+  "motivo": "padrão do manual (60 (one hour)) = valor mais comum gravado (60); vocabulário: 4/4 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (high shelve max duration); nomes muito parecidos (0.97)",
+  "padrao_manual": "60 (one hour)",
+  "mais_comum": "60",
+  "pontos": 6,
+  "tipo": "Long",
+  "tipo_gravado": "ULong"
+ },
+ "AnalogLevelAlarm|HiShelveMaxCount": {
+  "prj": "Hi.ShelveMaxCount",
+  "status": "confirmado",
+  "motivo": "padrão do manual (0 (zero), that is, n) = valor mais comum gravado (0); vocabulário: 4/4 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (high shelve max count); nomes muito parecidos (0.97)",
+  "padrao_manual": "0 (zero), that is, no limits for shelving",
+  "mais_comum": "0",
+  "pontos": 6,
+  "tipo": "Long",
+  "tipo_gravado": "UShort"
+ },
+ "AnalogLevelAlarm|HiHi": {
+  "prj": "HiHi.Enabled",
+  "status": "confirmado",
+  "motivo": "vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (high high)",
+  "padrao_manual": null,
+  "mais_comum": "1",
+  "pontos": 3,
+  "tipo": "Boolean",
+  "tipo_gravado": "Byte"
+ },
+ "AnalogLevelAlarm|HiHiLimit": {
+  "prj": "HiHi.Limit",
+  "status": "confirmado",
+  "motivo": "vocabulário: 3/3 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (high high limit); nomes muito parecidos (0.95)",
+  "padrao_manual": null,
+  "mais_comum": "112.0",
+  "pontos": 4,
+  "tipo": "Double",
+  "tipo_gravado": "Double"
+ },
+ "AnalogLevelAlarm|HiHiMessageText": {
+  "prj": "HiHi.Message",
+  "status": "confirmado",
+  "motivo": "vocabulário: 3/3 palavras do nome gravado aparecem na descrição; nomes muito parecidos (0.81)",
+  "padrao_manual": null,
+  "mais_comum": "Risco de Sobretensão",
+  "pontos": 2,
+  "tipo": "String",
+  "tipo_gravado": "String"
+ },
+ "AnalogLevelAlarm|HiHiSeverity": {
+  "prj": "HiHi.Severity",
+  "status": "confirmado",
+  "motivo": "vocabulário: 3/3 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (high high severity); nomes muito parecidos (0.96)",
+  "padrao_manual": null,
+  "mais_comum": "-2",
+  "pontos": 4,
+  "tipo": "EAlarmSeverity",
+  "tipo_gravado": "Long"
+ },
+ "AnalogLevelAlarm|HiHiAckRequired": {
+  "prj": "HiHi.Ack",
+  "status": "confirmado",
+  "motivo": "curadoria: mesmo padrão já confirmado em LoLo/HiHi (Xx + MessageText/AckRequired = Xx.Message/Xx.Ack) | automático: vocabulário: 3/3 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": null,
+  "mais_comum": "1",
+  "pontos": 1,
+  "tipo": "Boolean",
+  "tipo_gravado": "Byte"
+ },
+ "AnalogLevelAlarm|HiHiEvent": {
+  "prj": "HiHi.Event",
+  "status": "confirmado",
+  "motivo": "vocabulário: 3/3 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (high high event); nomes muito parecidos (0.95)",
+  "padrao_manual": null,
+  "mais_comum": "0",
+  "pontos": 4,
+  "tipo": "Boolean",
+  "tipo_gravado": "Byte"
+ },
+ "AnalogLevelAlarm|HiHiAllowShelving": {
+  "prj": "HiHi.AllowShelving",
+  "status": "confirmado",
+  "motivo": "padrão do manual (True) = valor mais comum gravado (1); vocabulário: 3/3 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (high high shelving); nomes muito parecidos (0.97)",
+  "padrao_manual": "True",
+  "mais_comum": "1",
+  "pontos": 6,
+  "tipo": "Boolean",
+  "tipo_gravado": "Byte"
+ },
+ "AnalogLevelAlarm|HiHiShelveMaxDuration": {
+  "prj": "HiHi.ShelveMaxDuration",
+  "status": "confirmado",
+  "motivo": "padrão do manual (60 (one hour)) = valor mais comum gravado (60); vocabulário: 5/5 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (high high shelve max duration); nomes muito parecidos (0.98)",
+  "padrao_manual": "60 (one hour)",
+  "mais_comum": "60",
+  "pontos": 6,
+  "tipo": "Long",
+  "tipo_gravado": "ULong"
+ },
+ "AnalogLevelAlarm|HiHiShelveMaxCount": {
+  "prj": "HiHi.ShelveMaxCount",
+  "status": "confirmado",
+  "motivo": "padrão do manual (0 (zero), that is, n) = valor mais comum gravado (0); vocabulário: 5/5 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (high high shelve max count); nomes muito parecidos (0.97)",
+  "padrao_manual": "0 (zero), that is, no limits for shelving",
+  "mais_comum": "0",
+  "pontos": 6,
+  "tipo": "Long",
+  "tipo_gravado": "UShort"
+ },
+ "DBServer|nRetries": {
+  "prj": "Retries",
+  "status": "confirmado",
+  "motivo": "padrão do manual (5 (five)) = valor mais comum gravado (5); vocabulário: 1/1 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (retries); nomes muito parecidos (0.93)",
+  "padrao_manual": "5 (five)",
+  "mais_comum": "5",
+  "pontos": 6,
+  "tipo": "Long",
+  "tipo_gravado": "ULong"
+ },
+ "DigitalAlarm|DigitalReturnMessageText": {
+  "prj": "ReturnMessageText",
+  "status": "confirmado",
+  "motivo": "vocabulário: 3/3 palavras do nome gravado aparecem na descrição; nomes muito parecidos (0.83)",
+  "padrao_manual": null,
+  "mais_comum": "",
+  "pontos": 2,
+  "tipo": "String",
+  "tipo_gravado": "String"
+ },
+ "DigitalAlarm|DigitalLimit": {
+  "prj": "Limit",
+  "status": "confirmado",
+  "motivo": "curadoria: prefixo Digital da interface do alarme digital | automático: vocabulário: 1/1 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": null,
+  "mais_comum": "True",
+  "pontos": 1,
+  "tipo": "Variant",
+  "tipo_gravado": "Boolean"
+ },
+ "DigitalAlarm|DigitalMessageText": {
+  "prj": "Message",
+  "status": "confirmado",
+  "motivo": "curadoria: prefixo Digital | automático: vocabulário: 1/1 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": null,
+  "mais_comum": "",
+  "pontos": 1,
+  "tipo": "String",
+  "tipo_gravado": "String"
+ },
+ "DigitalAlarm|DigitalSeverity": {
+  "prj": "Severity",
+  "status": "confirmado",
+  "motivo": "curadoria: prefixo Digital | automático: vocabulário: 1/1 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": null,
+  "mais_comum": "0",
+  "pontos": 1,
+  "tipo": "EAlarmSeverity",
+  "tipo_gravado": "Long"
+ },
+ "DigitalAlarm|DigitalAckRequired": {
+  "prj": "Ack",
+  "status": "confirmado",
+  "motivo": "curadoria: prefixo Digital; Ack = AckRequired | automático: vocabulário: 1/1 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": null,
+  "mais_comum": "1",
+  "pontos": 1,
+  "tipo": "Boolean",
+  "tipo_gravado": "Byte"
+ },
+ "DigitalAlarm|DigitalAllowShelving": {
+  "prj": "AllowShelving",
+  "status": "confirmado",
+  "motivo": "padrão do manual (True) = valor mais comum gravado (1); vocabulário: 1/1 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": "True",
+  "mais_comum": "1",
+  "pontos": 3,
+  "tipo": "Boolean",
+  "tipo_gravado": "Byte"
+ },
+ "DigitalAlarm|DigitalShelveMaxDuration": {
+  "prj": "ShelveMaxDuration",
+  "status": "confirmado",
+  "motivo": "padrão do manual (60 (one hour)) = valor mais comum gravado (60); vocabulário: 3/3 palavras do nome gravado aparecem na descrição; nomes muito parecidos (0.83)",
+  "padrao_manual": "60 (one hour)",
+  "mais_comum": "60",
+  "pontos": 4,
+  "tipo": "Long",
+  "tipo_gravado": "ULong"
+ },
+ "DigitalAlarm|DigitalShelveMaxCount": {
+  "prj": "ShelveMaxCount",
+  "status": "confirmado",
+  "motivo": "padrão do manual (0 (zero), that is, n) = valor mais comum gravado (0); vocabulário: 3/3 palavras do nome gravado aparecem na descrição; nomes muito parecidos (0.80)",
+  "padrao_manual": "0 (zero), that is, no limits for shelving",
+  "mais_comum": "0",
+  "pontos": 4,
+  "tipo": "Long",
+  "tipo_gravado": "UShort"
+ },
+ "DiscreteAlarm|DiscreteReturnMessageText": {
+  "prj": "ReturnMessageText",
+  "status": "confirmado",
+  "motivo": "vocabulário: 3/3 palavras do nome gravado aparecem na descrição; nomes muito parecidos (0.81)",
+  "padrao_manual": null,
+  "mais_comum": "MODO DE SUSPENSÃO - NORMALIZADO",
+  "pontos": 2,
+  "tipo": "String",
+  "tipo_gravado": "String"
+ },
+ "Hist|DiscardInterval": {
+  "prj": "DiscardUnits",
+  "status": "confirmado",
+  "motivo": "curadoria: mesma lógica de BackupDiscardInterval/BackupDiscardUnits | automático: valor mais comum gravado (4) difere do padrão do manual (1 (one time unit ind): configuração do usuário, sem peso; vocabulário: 2/2 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": "1 (one time unit indicated by the DiscardTimeUnit property)",
+  "mais_comum": "4",
+  "pontos": 1,
+  "tipo": "Long",
+  "tipo_gravado": "ULong"
+ },
+ "Hist|BackupDiscardInterval": {
+  "prj": "BackupDiscardUnits",
+  "status": "confirmado",
+  "motivo": "curadoria: manual: é a quantidade de unidades de tempo (padrão 12) e funciona com BackupDiscardTimeUnit, que é gravada como BackupDiscardTimeUnit | automático: padrão do manual (12 (twelve time unit) = valor mais comum gravado (12); vocabulário: 3/3 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": "12 (twelve time units indicated by the BackupDiscardTimeUnit property)",
+  "mais_comum": "12",
+  "pontos": 3,
+  "tipo": "Long",
+  "tipo_gravado": "ULong"
+ },
+ "Hist|UseTagQuality": {
+  "prj": "UseQualityTag",
+  "status": "confirmado",
+  "motivo": "curadoria: mesmas palavras em outra ordem | automático: vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (tag quality)",
+  "padrao_manual": null,
+  "mais_comum": "False",
+  "pontos": 3,
+  "tipo": "Boolean",
+  "tipo_gravado": "Boolean"
+ },
+ "HistIndex|IndexName": {
+  "prj": "Index",
+  "status": "confirmado",
+  "motivo": "padrão do manual (an empty String) = valor mais comum gravado (); vocabulário: 1/1 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": "an empty String",
+  "mais_comum": "",
+  "pontos": 3,
+  "tipo": "String",
+  "tipo_gravado": "String"
+ },
+ "IOBlockElement|PercentDeadband": {
+  "prj": "PercDeadband",
+  "status": "confirmado",
+  "motivo": "padrão do manual (0 (zero)) = valor mais comum gravado (0.0); vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (percent deadband); nomes muito parecidos (0.89)",
+  "padrao_manual": "0 (zero)",
+  "mais_comum": "0.0",
+  "pontos": 6,
+  "tipo": "Double",
+  "tipo_gravado": "Double"
+ },
+ "IOBlockElement|EnableScaling": {
+  "prj": "Scaling",
+  "status": "confirmado",
+  "motivo": "curadoria: idem IOTag | automático: padrão do manual (False) = valor mais comum gravado (0); vocabulário: 1/1 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (scaling)",
+  "padrao_manual": "False",
+  "mais_comum": "0",
+  "pontos": 5,
+  "tipo": "Boolean",
+  "tipo_gravado": "ULong"
+ },
+ "IOBlockElement|DeviceLow": {
+  "prj": "DevLow",
+  "status": "confirmado",
+  "motivo": "padrão do manual (0 (zero)) = valor mais comum gravado (0.0); vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (device low); nomes muito parecidos (0.80)",
+  "padrao_manual": "0 (zero)",
+  "mais_comum": "0.0",
+  "pontos": 6,
+  "tipo": "Double",
+  "tipo_gravado": "Double"
+ },
+ "IOBlockElement|DeviceHigh": {
+  "prj": "DevHigh",
+  "status": "confirmado",
+  "motivo": "padrão do manual (1,000) = valor mais comum gravado (1000.0); vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (device high); nomes muito parecidos (0.82)",
+  "padrao_manual": "1,000",
+  "mais_comum": "1000.0",
+  "pontos": 6,
+  "tipo": "Double",
+  "tipo_gravado": "Double"
+ },
+ "IODriver|DriverLocation": {
+  "prj": "_DriverLocation",
+  "status": "confirmado",
+  "motivo": "valor mais comum gravado (03_Drivers\\IEC870-104.dll) difere do padrão do manual (an empty String): configuração do usuário, sem peso; vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (driver location); nomes muito parecidos (1.00)",
+  "padrao_manual": "an empty String",
+  "mais_comum": "03_Drivers\\IEC870-104.dll",
+  "pontos": 4,
+  "tipo": "BSTRFILE",
+  "tipo_gravado": "String"
+ },
+ "IODriver|WriteFeedbackMode": {
+  "prj": "WriteMode",
+  "status": "inconclusivo",
+  "motivo": "curadoria: único escalar gravado sem par (WriteSyncMode já é igual); manual descreve confirmação de escrita; a confirmar | automático: vocabulário: 1/1 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": null,
+  "mais_comum": "2",
+  "pontos": 1,
+  "tipo": "WriteFeedbackModes",
+  "tipo_gravado": "ULong"
+ },
+ "IODriver|EnableReadGrouping": {
+  "prj": "ReadGrouping",
+  "status": "confirmado",
+  "motivo": "padrão do manual (True) = valor mais comum gravado (True); vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (read grouping); nomes muito parecidos (0.80)",
+  "padrao_manual": "True",
+  "mais_comum": "True",
+  "pontos": 6,
+  "tipo": "Boolean",
+  "tipo_gravado": "Boolean"
+ },
+ "IODriver|DisableIOServerPool": {
+  "prj": "DisablePool",
+  "status": "confirmado",
+  "motivo": "padrão do manual (False) = valor mais comum gravado (False); vocabulário: 1/1 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": "False",
+  "mais_comum": "False",
+  "pontos": 3,
+  "tipo": "Boolean",
+  "tipo_gravado": "Boolean"
+ },
+ "IOTag|PercentDeadband": {
+  "prj": "PercDeadband",
+  "status": "confirmado",
+  "motivo": "padrão do manual (0 (zero)) = valor mais comum gravado (0.0); vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (percent deadband); nomes muito parecidos (0.89)",
+  "padrao_manual": "0 (zero)",
+  "mais_comum": "0.0",
+  "pontos": 6,
+  "tipo": "Double",
+  "tipo_gravado": "Double"
+ },
+ "IOTag|EnableScaling": {
+  "prj": "Scaling",
+  "status": "confirmado",
+  "motivo": "curadoria: flag de escala; mesmos termos | automático: vocabulário: 1/1 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (scaling)",
+  "padrao_manual": null,
+  "mais_comum": "0",
+  "pontos": 3,
+  "tipo": "Boolean",
+  "tipo_gravado": "ULong"
+ },
+ "IOTag|DeviceLow": {
+  "prj": "DevLow",
+  "status": "confirmado",
+  "motivo": "padrão do manual (0 (zero)) = valor mais comum gravado (0.0); vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (device low); nomes muito parecidos (0.80)",
+  "padrao_manual": "0 (zero)",
+  "mais_comum": "0.0",
+  "pontos": 6,
+  "tipo": "Double",
+  "tipo_gravado": "Double"
+ },
+ "IOTag|DeviceHigh": {
+  "prj": "DevHigh",
+  "status": "confirmado",
+  "motivo": "valor mais comum gravado (1.0) difere do padrão do manual (1,000): configuração do usuário, sem peso; vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (device high); nomes muito parecidos (0.82)",
+  "padrao_manual": "1,000",
+  "mais_comum": "1.0",
+  "pontos": 4,
+  "tipo": "Double",
+  "tipo_gravado": "Double"
+ },
+ "UaDriver|EndpointURL": {
+  "prj": "URL",
+  "status": "confirmado",
+  "motivo": "curadoria: String; URL do servidor OPC UA | automático: vocabulário: 1/1 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": null,
+  "mais_comum": "opc.tcp://10.230.1.6:6516",
+  "pontos": 1,
+  "tipo": "String",
+  "tipo_gravado": "String"
+ },
+ "UaDriver|SecurityMode": {
+  "prj": "SecMode",
+  "status": "confirmado",
+  "motivo": "vocabulário: 1/1 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (security)",
+  "padrao_manual": null,
+  "mais_comum": "1",
+  "pontos": 3,
+  "tipo": "UaSecurityModes",
+  "tipo_gravado": "ULong"
+ },
+ "UaDriver|SecurityPolicy": {
+  "prj": "SecPol",
+  "status": "confirmado",
+  "motivo": "vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (security policy)",
+  "padrao_manual": null,
+  "mais_comum": "1",
+  "pontos": 3,
+  "tipo": "UaSecurityPolicies",
+  "tipo_gravado": "ULong"
+ },
+ "UaDriver|UserName": {
+  "prj": "User",
+  "status": "confirmado",
+  "motivo": "curadoria: String; usuário | automático: valor mais comum gravado (viewerScada) difere do padrão do manual (an empty String): configuração do usuário, sem peso; vocabulário: 1/1 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": "an empty String",
+  "mais_comum": "viewerScada",
+  "pontos": 1,
+  "tipo": "String",
+  "tipo_gravado": "String"
+ },
+ "UaDriver|Password": {
+  "prj": "Pwd",
+  "status": "confirmado",
+  "motivo": "valor mais comum gravado (鬏淴ꋩ꯮ꭃࡔ寭珨병) difere do padrão do manual (an empty String): configuração do usuário, sem peso; vocabulário: 1/1 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (password)",
+  "padrao_manual": "an empty String",
+  "mais_comum": "鬏淴ꋩ꯮ꭃࡔ寭珨병",
+  "pontos": 3,
+  "tipo": "BSTRPASSWORD",
+  "tipo_gravado": "String"
+ },
+ "UaDriver|TimeoutCall": {
+  "prj": "CallTimeout",
+  "status": "confirmado",
+  "motivo": "padrão do manual (10,000 (10 seconds)) = valor mais comum gravado (10000); vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (timeout call)",
+  "padrao_manual": "10,000 (10 seconds)",
+  "mais_comum": "10000",
+  "pontos": 5,
+  "tipo": "Long",
+  "tipo_gravado": "ULong"
+ },
+ "UaDriver|TimeoutConnection": {
+  "prj": "ConnTimeout",
+  "status": "confirmado",
+  "motivo": "padrão do manual (10,000 (10 seconds) ) = valor mais comum gravado (10000); vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (timeout connection)",
+  "padrao_manual": "10,000 (10 seconds) and its value must be greater than 0 (zero)",
+  "mais_comum": "10000",
+  "pontos": 5,
+  "tipo": "Long",
+  "tipo_gravado": "ULong"
+ },
+ "UaDriver|TimeoutSession": {
+  "prj": "SessTimeout",
+  "status": "confirmado",
+  "motivo": "padrão do manual (600,000 (10 minutes)) = valor mais comum gravado (600000); vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (timeout session)",
+  "padrao_manual": "600,000 (10 minutes) and its value must be greater than 0 (zero)",
+  "mais_comum": "600000",
+  "pontos": 5,
+  "tipo": "Long",
+  "tipo_gravado": "ULong"
+ },
+ "UaDriver|PublishLimit": {
+  "prj": "PubLimit",
+  "status": "confirmado",
+  "motivo": "padrão do manual (5 (five)) = valor mais comum gravado (5); vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (publish limit); nomes muito parecidos (0.80)",
+  "padrao_manual": "5 (five)",
+  "mais_comum": "5",
+  "pontos": 6,
+  "tipo": "Long",
+  "tipo_gravado": "ULong"
+ },
+ "UaDriver|WriteFeedbackMode": {
+  "prj": "WfMode",
+  "status": "confirmado",
+  "motivo": "vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (write feedback)",
+  "padrao_manual": null,
+  "mais_comum": "1",
+  "pontos": 3,
+  "tipo": "WriteFeedbackModes",
+  "tipo_gravado": "ULong"
+ },
+ "UaDriver|WriteValueMode": {
+  "prj": "WvMode",
+  "status": "confirmado",
+  "motivo": "vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (write value)",
+  "padrao_manual": null,
+  "mais_comum": "1",
+  "pontos": 3,
+  "tipo": "EWriteValueMode",
+  "tipo_gravado": "ULong"
+ },
+ "UaDriver|MaxNodesPerClientCall": {
+  "prj": "MaxNodesCall",
+  "status": "confirmado",
+  "motivo": "padrão do manual (0 (zero), which disa) = valor mais comum gravado (0); vocabulário: 3/3 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": "0 (zero), which disables this management",
+  "mais_comum": "0",
+  "pontos": 3,
+  "tipo": "Long",
+  "tipo_gravado": "ULong"
+ },
+ "UaDriver|OverrideEndpointURLHost": {
+  "prj": "OverrideURLHost",
+  "status": "confirmado",
+  "motivo": "padrão do manual (False) = valor mais comum gravado (False); vocabulário: 3/3 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": "False",
+  "mais_comum": "False",
+  "pontos": 3,
+  "tipo": "Boolean",
+  "tipo_gravado": "Boolean"
+ },
+ "UaTag|DeviceLow": {
+  "prj": "DevLo",
+  "status": "confirmado",
+  "motivo": "padrão do manual (0 (zero)) = valor mais comum gravado (0.0); vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (device low)",
+  "padrao_manual": "0 (zero)",
+  "mais_comum": "0.0",
+  "pontos": 5,
+  "tipo": "Double",
+  "tipo_gravado": "Double"
+ },
+ "UaTag|DeviceHigh": {
+  "prj": "DevHi",
+  "status": "confirmado",
+  "motivo": "valor mais comum gravado (1.0) difere do padrão do manual (1,000): configuração do usuário, sem peso; vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (device high)",
+  "padrao_manual": "1,000",
+  "mais_comum": "1.0",
+  "pontos": 3,
+  "tipo": "Double",
+  "tipo_gravado": "Double"
+ },
+ "UaTag|EULow": {
+  "prj": "EULo",
+  "status": "confirmado",
+  "motivo": "padrão do manual (0 (zero)) = valor mais comum gravado (0.0); vocabulário: 1/1 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (eu low); nomes muito parecidos (0.89)",
+  "padrao_manual": "0 (zero)",
+  "mais_comum": "0.0",
+  "pontos": 6,
+  "tipo": "Double",
+  "tipo_gravado": "Double"
+ },
+ "UaTag|EUHigh": {
+  "prj": "EUHi",
+  "status": "confirmado",
+  "motivo": "valor mais comum gravado (1.0) difere do padrão do manual (1,000): configuração do usuário, sem peso; vocabulário: 1/1 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (eu high); nomes muito parecidos (0.80)",
+  "padrao_manual": "1,000",
+  "mais_comum": "1.0",
+  "pontos": 4,
+  "tipo": "Double",
+  "tipo_gravado": "Double"
+ },
+ "UaTag|EnableDriverEvent": {
+  "prj": "DriverEvent",
+  "status": "confirmado",
+  "motivo": "padrão do manual (False) = valor mais comum gravado (0); vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (driver event)",
+  "padrao_manual": "False",
+  "mais_comum": "0",
+  "pontos": 5,
+  "tipo": "Boolean",
+  "tipo_gravado": "ULong"
+ },
+ "UaTag|SyncWrite": {
+  "prj": "SyncW",
+  "status": "confirmado",
+  "motivo": "padrão do manual (False) = valor mais comum gravado (0); vocabulário: 1/1 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": "False",
+  "mais_comum": "0",
+  "pontos": 3,
+  "tipo": "Boolean",
+  "tipo_gravado": "ULong"
+ },
+ "E3Alarm|AreaFilter": {
+  "prj": "Filter1",
+  "status": "confirmado",
+  "motivo": "curadoria: valor gravado em Filter1 é um nome de área (ex.: UFV_CFFE), compatível com a descrição de AreaFilter | automático: valor mais comum gravado (UFV_CFFE) difere do padrão do manual (an empty String, tha): configuração do usuário, sem peso; vocabulário: 1/1 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": "an empty String, that is, no filtering by Area",
+  "mais_comum": "UFV_CFFE",
+  "pontos": 1,
+  "tipo": "String",
+  "tipo_gravado": "String"
+ },
+ "E3Alarm|ShowConnectionStatusBar": {
+  "prj": "ShowConnecBar",
+  "status": "confirmado",
+  "motivo": "padrão do manual (False) = valor mais comum gravado (False); vocabulário: 3/3 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": "False",
+  "mais_comum": "False",
+  "pontos": 3,
+  "tipo": "Boolean",
+  "tipo_gravado": "Boolean"
+ },
+ "E3Alarm|ConnectionStatusBarColor": {
+  "prj": "ConnStatusColor",
+  "status": "confirmado",
+  "motivo": "curadoria: valor mais comum gravado (0 = preto) = padrão do manual (black RGB(0,0,0)) | automático: valor mais comum gravado (0) difere do padrão do manual (black (RGB(0, 0, 0))): configuração do usuário, sem peso; vocabulário: 3/3 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": "black (RGB(0, 0, 0))",
+  "mais_comum": "0",
+  "pontos": 1,
+  "tipo": "OLE_COLOR",
+  "tipo_gravado": "Long"
+ },
+ "E3Alarm|PictureNotConnected": {
+  "prj": "PictureConnectionError",
+  "status": "confirmado",
+  "motivo": "curadoria: manual: ícone da conexão NÃO conectada ao servidor; PictureConnectionError é o estado de erro de conexão (par PictureConnected/PictureConnectionError/PictureUnknownConnection) | automático: padrão do manual (an empty String, tha) = valor mais comum gravado (); vocabulário: 2/3 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": "an empty String, that is, this object displays the icon on its connection status bar for this Connection",
+  "mais_comum": "",
+  "pontos": 3,
+  "tipo": "BSTRPICTURE",
+  "tipo_gravado": "String"
+ },
+ "E3Alarm|PictureUnknown": {
+  "prj": "PictureUnknownConnection",
+  "status": "confirmado",
+  "motivo": "curadoria: manual: ícone da conexão com status desconhecido | automático: padrão do manual (an empty String, tha) = valor mais comum gravado (); vocabulário: 3/3 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": "an empty String, that is, this object displays the icon on its connection status bar for this Connection",
+  "mais_comum": "",
+  "pontos": 3,
+  "tipo": "BSTRPICTURE",
+  "tipo_gravado": "String"
+ },
+ "E3Alarm|AllowDeleteUnboundAlarms": {
+  "prj": "AllowDeleteAllUnbound",
+  "status": "confirmado",
+  "motivo": "padrão do manual (True) = valor mais comum gravado (True); vocabulário: 3/3 palavras do nome gravado aparecem na descrição; nomes muito parecidos (0.80)",
+  "padrao_manual": "True",
+  "mais_comum": "True",
+  "pontos": 4,
+  "tipo": "Boolean",
+  "tipo_gravado": "Boolean"
+ },
+ "E3Chart|VerScaleFormat": {
+  "prj": "FormatProp_#",
+  "status": "inconclusivo",
+  "motivo": "vocabulário: 1/1 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": null,
+  "mais_comum": null,
+  "pontos": 1,
+  "tipo": "BSTRFORMAT",
+  "tipo_gravado": "String"
+ },
+ "E3Chart|HorScaleEnd": {
+  "prj": "ScaleDateEndProp_#",
+  "status": "inconclusivo",
+  "motivo": "vocabulário: 3/3 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": null,
+  "mais_comum": null,
+  "pontos": 1,
+  "tipo": "Variant",
+  "tipo_gravado": "Double"
+ },
+ "E3Chart|HorScaleBegin": {
+  "prj": "ScaleDateBeginProp_#",
+  "status": "inconclusivo",
+  "motivo": "vocabulário: 2/3 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": null,
+  "mais_comum": null,
+  "pontos": 1,
+  "tipo": "Variant",
+  "tipo_gravado": "Double"
+ },
+ "E3Chart|VerScaleEnd": {
+  "prj": "ScaleEndProp_#",
+  "status": "inconclusivo",
+  "motivo": "vocabulário: 2/2 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": "-100",
+  "mais_comum": null,
+  "pontos": 1,
+  "tipo": "Variant",
+  "tipo_gravado": "Double"
+ },
+ "E3Chart|VerScaleBegin": {
+  "prj": "ScaleBeginProp_#",
+  "status": "inconclusivo",
+  "motivo": "vocabulário: 2/2 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": "100",
+  "mais_comum": null,
+  "pontos": 1,
+  "tipo": "Variant",
+  "tipo_gravado": "Double"
+ },
+ "E3Chart|HorGridColor": {
+  "prj": "ColorProp_#",
+  "status": "inconclusivo",
+  "motivo": "vocabulário: 1/1 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": "gray (RGB(192, 192, 192))",
+  "mais_comum": null,
+  "pontos": 1,
+  "tipo": "OLE_COLOR",
+  "tipo_gravado": "Long"
+ },
+ "E3Chart|VerGridColor": {
+  "prj": "GridColorProp_#",
+  "status": "inconclusivo",
+  "motivo": "vocabulário: 2/2 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": "gray (RGB(192, 192, 192))",
+  "mais_comum": null,
+  "pontos": 1,
+  "tipo": "OLE_COLOR",
+  "tipo_gravado": "Long"
+ },
+ "E3Chart|CursorSearchStyle": {
+  "prj": "SearchStyle",
+  "status": "confirmado",
+  "motivo": "curadoria: mesmos termos; enum SearchStyles gravado como inteiro | automático: vocabulário: 2/2 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": null,
+  "mais_comum": "0",
+  "pontos": 1,
+  "tipo": "SearchStyles",
+  "tipo_gravado": "Long"
+ },
+ "E3Chart|VerAxisTitle": {
+  "prj": "TitleProp_#",
+  "status": "inconclusivo",
+  "motivo": "vocabulário: 1/1 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": null,
+  "mais_comum": null,
+  "pontos": 1,
+  "tipo": "String",
+  "tipo_gravado": "String"
+ },
+ "E3Browser|AllowColumnResize": {
+  "prj": "ColumnResize",
+  "status": "confirmado",
+  "motivo": "vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (column resize); nomes muito parecidos (0.83)",
+  "padrao_manual": null,
+  "mais_comum": "True",
+  "pontos": 4,
+  "tipo": "Boolean",
+  "tipo_gravado": "Boolean"
+ },
+ "E3Browser|AllowRowResize": {
+  "prj": "RowResize",
+  "status": "confirmado",
+  "motivo": "curadoria: mesmos termos | automático: vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (row resize)",
+  "padrao_manual": null,
+  "mais_comum": "True",
+  "pontos": 3,
+  "tipo": "Boolean",
+  "tipo_gravado": "Boolean"
+ },
+ "E3Browser|HeaderTextAlignment": {
+  "prj": "HeaderAlignment",
+  "status": "confirmado",
+  "motivo": "vocabulário: 2/2 palavras do nome gravado aparecem na descrição; nomes muito parecidos (0.88)",
+  "padrao_manual": null,
+  "mais_comum": "1",
+  "pontos": 2,
+  "tipo": "enumBrowserHeaderAlignment",
+  "tipo_gravado": "Long"
+ },
+ "DBSqlConnection|Server": {
+  "prj": "_Server",
+  "status": "confirmado",
+  "motivo": "vocabulário: 1/1 palavras do nome gravado aparecem na descrição; sem entrada da propriedade no manual; nomes idênticos após expandir abreviações (server); nomes muito parecidos (1.00)",
+  "padrao_manual": null,
+  "mais_comum": "srvscadasqlprd.ea85e15d44b4.database.win",
+  "pontos": 4,
+  "tipo": "String",
+  "tipo_gravado": "String"
+ },
+ "DBSqlConnection|Password": {
+  "prj": "_Pwd",
+  "status": "confirmado",
+  "motivo": "curadoria: Pwd = Password (valor mascarado nas saídas) | automático: vocabulário: 1/1 palavras do nome gravado aparecem na descrição; sem entrada da propriedade no manual; nomes idênticos após expandir abreviações (password)",
+  "padrao_manual": null,
+  "mais_comum": "*7Z6^BQ7ET5ox5Y3gvh0",
+  "pontos": 3,
+  "tipo": "String",
+  "tipo_gravado": "String"
+ },
+ "DBSqlConnection|NetLibrary": {
+  "prj": "_NetLibrary",
+  "status": "confirmado",
+  "motivo": "vocabulário: 2/2 palavras do nome gravado aparecem na descrição; sem entrada da propriedade no manual; nomes idênticos após expandir abreviações (net library); nomes muito parecidos (1.00)",
+  "padrao_manual": null,
+  "mais_comum": "0",
+  "pontos": 4,
+  "tipo": "SqlNetworkLibrary",
+  "tipo_gravado": "Byte"
+ },
+ "DBSqlConnection|CustomConnectionString": {
+  "prj": "_ConnString",
+  "status": "confirmado",
+  "motivo": "curadoria: string de conexão | automático: vocabulário: 2/2 palavras do nome gravado aparecem na descrição; sem entrada da propriedade no manual",
+  "padrao_manual": null,
+  "mais_comum": "",
+  "pontos": 1,
+  "tipo": "String",
+  "tipo_gravado": "String"
+ },
+ "DBSqlConnection|UseCustomConnectionString": {
+  "prj": "_UseConnString",
+  "status": "confirmado",
+  "motivo": "curadoria: flag que habilita a string de conexão | automático: vocabulário: 2/2 palavras do nome gravado aparecem na descrição; sem entrada da propriedade no manual",
+  "padrao_manual": null,
+  "mais_comum": "0",
+  "pontos": 1,
+  "tipo": "Boolean",
+  "tipo_gravado": "Byte"
+ },
+ "DBSqlConnection|Provider": {
+  "prj": "_Provider",
+  "status": "confirmado",
+  "motivo": "vocabulário: 1/1 palavras do nome gravado aparecem na descrição; sem entrada da propriedade no manual; nomes idênticos após expandir abreviações (provider); nomes muito parecidos (1.00)",
+  "padrao_manual": null,
+  "mais_comum": "2",
+  "pontos": 4,
+  "tipo": "SqlProvider",
+  "tipo_gravado": "Byte"
+ },
+ "E3Query|FunctionSubType": {
+  "prj": "HistSubType",
+  "status": "inconclusivo",
+  "motivo": "vocabulário: 2/3 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": null,
+  "mais_comum": "4294967295",
+  "pontos": 1,
+  "tipo": "FunctionSubType",
+  "tipo_gravado": "ULong"
+ },
+ "E3Query|IgnoreQuality": {
+  "prj": "Quality",
+  "status": "inconclusivo",
+  "motivo": "vocabulário: 1/1 palavras do nome gravado aparecem na descrição",
+  "padrao_manual": null,
+  "mais_comum": "False",
+  "pontos": 1,
+  "tipo": "Boolean",
+  "tipo_gravado": "Boolean"
+ },
+ "E3Query|UaQueryType": {
+  "prj": "UaRaw",
+  "status": "inconclusivo",
+  "motivo": "curadoria: manual: tipo Raw (0) ou Processed (1); UaRaw (Boolean) gravado é compatível (a confirmar no E3 Studio) | automático: tipo gravado (Boolean) incompatível com UaQueryType",
+  "padrao_manual": null,
+  "mais_comum": null,
+  "pontos": -2,
+  "tipo": "UaQueryType",
+  "tipo_gravado": "Boolean"
+ },
+ "E3Query|QueryCacheOverrideDomainConfig": {
+  "prj": "QueryCacheOverrideDomConfig",
+  "status": "confirmado",
+  "motivo": "vocabulário: 5/5 palavras do nome gravado aparecem na descrição; nomes idênticos após expandir abreviações (query cache override domain config); nomes muito parecidos (0.95)",
+  "padrao_manual": null,
+  "mais_comum": "False",
+  "pontos": 4,
+  "tipo": "Boolean",
+  "tipo_gravado": "Boolean"
+ },
+ "IODriver|DriverName": {
+  "prj": "",
+  "status": "rejeitado",
+  "motivo": "curadoria: manual: DriverName é somente leitura (descrição da biblioteca); DriverData é o blob de configuração",
+  "padrao_manual": null,
+  "mais_comum": null,
+  "pontos": 0,
+  "tipo": "",
+  "tipo_gravado": ""
+ },
+ "E3Chart|VerMinorTicks": {
+  "prj": "",
+  "status": "rejeitado",
+  "motivo": "curadoria: tipo Double (type lib) × Long gravado; MinorTicksProp_# é por eixo (família)",
+  "padrao_manual": null,
+  "mais_comum": null,
+  "pontos": 0,
+  "tipo": "",
+  "tipo_gravado": ""
+ },
+ "Screen|GradientStyle": {
+  "prj": "",
+  "status": "rejeitado",
+  "motivo": "curadoria: HasGradStyle é flag booleana 'tem gradiente'; GradientStyle é enum",
+  "padrao_manual": null,
+  "mais_comum": null,
+  "pontos": 0,
+  "tipo": "",
+  "tipo_gravado": ""
+ }
+}

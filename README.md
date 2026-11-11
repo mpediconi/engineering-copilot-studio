@@ -9,6 +9,7 @@ Aplicação desktop open source em Python para engenharia IEC 104, modelagem de 
 | IEC 104 | Analisar e auditar CSV E3; comparar dois CSVs; planejar e executar Master → Slave e Slave → Master; gerar listas de aquisição e distribuição em XLSX; criar, editar e remover perfis; administrar Golden Files e colunas padrão. |
 | Gateway API | Modelar pontos de uma amostra JSON, validar CA/IOA/ASDU e direção, conferir qualidade e timestamp, pré-visualizar valores e exportar configuração JSON. |
 | Elipse E3 | Ler .prj e .lib sem alterar os originais; registrar SHA-256, cobertura de nós, objetos, classes e propriedades selecionadas; comparar versões e exportar relatório JSON. |
+| Comparador original | Abrir o gerador visual original de logs, migrado para tools/e3_comparator_original, com comparação por GUID/caminho, scripts, geometria, bibliotecas e exportação MD/JSON/XLSX. |
 | Skills | Consultar os fluxos integrados, importar um SKILL.md ou uma pasta com várias skills e pesquisar o catálogo. |
 
 O gateway funciona **offline** nesta versão. Ele não consulta APIs, não inicia um servidor IEC 104 e não envia comandos. A inspeção E3 não comprova a resolução de vínculos indiretos, bibliotecas externas nem o comportamento em execução; o relatório marca esse escopo como **NÃO INSPECIONADO**.
@@ -27,6 +28,7 @@ Nesta máquina, abra iniciar.bat para iniciar a interface com o ambiente virtual
 
 - src/engineering_copilot_studio/: interface, gateway offline, catálogo de skills e auditoria E3.
 - src/iec104_csv_studio/: núcleo de domínio, conversão e persistência do IEC104 CSV Studio.
+- tools/e3_comparator_original/: comparador original migrado, incluindo comparar.py, leitor E3, patterns e visualizador Windows Forms.
 - config/ e golden_files/: exemplos editáveis no código fonte.
 - src/engineering_copilot_studio/seeds/: cópias usadas no pacote instalado.
 - tests/: testes de contratos e fluxos principais.
@@ -54,3 +56,5 @@ Na tela **Skills**, escolha **Adicionar SKILL.md** ou **Importar pasta de skills
     .\.venv\Scripts\python.exe -m pytest -q
 
 O código é distribuído sob licença MIT. Consulte NOTICE.md para a proveniência dos módulos reaproveitados.
+
+Na tela **Projetos E3**, o botão **Abrir gerador de log comparativo** inicia o visualizador original migrado. Ele grava os resultados em tools/e3_comparator_original/logs e não altera arquivos .prj ou .lib.

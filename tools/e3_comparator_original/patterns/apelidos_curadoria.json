@@ -1,0 +1,202 @@
+{
+ "Hist|BackupDiscardInterval": {
+  "prj": "BackupDiscardUnits",
+  "status": "confirmado",
+  "motivo": "manual: é a quantidade de unidades de tempo (padrão 12) e funciona com BackupDiscardTimeUnit, que é gravada como BackupDiscardTimeUnit"
+ },
+ "AlarmServer|BackupDiscardInterval": {
+  "prj": "BackupDiscardUnits",
+  "status": "confirmado",
+  "motivo": "idem Hist (quantidade de unidades de tempo + BackupDiscardTimeUnit)"
+ },
+ "AlarmServer|DiscardInterval": {
+  "prj": "DiscardUnits",
+  "status": "confirmado",
+  "motivo": "mesma lógica de BackupDiscardInterval/BackupDiscardUnits: quantidade de unidades + DiscardTimeUnit"
+ },
+ "Hist|DiscardInterval": {
+  "prj": "DiscardUnits",
+  "status": "confirmado",
+  "motivo": "mesma lógica de BackupDiscardInterval/BackupDiscardUnits"
+ },
+ "E3Alarm|PictureNotConnected": {
+  "prj": "PictureConnectionError",
+  "status": "confirmado",
+  "motivo": "manual: ícone da conexão NÃO conectada ao servidor; PictureConnectionError é o estado de erro de conexão (par PictureConnected/PictureConnectionError/PictureUnknownConnection)"
+ },
+ "E3Alarm|PictureUnknown": {
+  "prj": "PictureUnknownConnection",
+  "status": "confirmado",
+  "motivo": "manual: ícone da conexão com status desconhecido"
+ },
+ "IODriver|DriverName": {
+  "prj": null,
+  "status": "rejeitado",
+  "motivo": "manual: DriverName é somente leitura (descrição da biblioteca); DriverData é o blob de configuração"
+ },
+ "E3Query|UaQueryType": {
+  "prj": "UaRaw",
+  "status": "inconclusivo",
+  "motivo": "manual: tipo Raw (0) ou Processed (1); UaRaw (Boolean) gravado é compatível (a confirmar no E3 Studio)"
+ },
+ "E3Alarm|AreaFilter": {
+  "prj": "Filter1",
+  "status": "confirmado",
+  "motivo": "valor gravado em Filter1 é um nome de área (ex.: UFV_CFFE), compatível com a descrição de AreaFilter"
+ },
+ "E3Chart|VerMinorTicks": {
+  "prj": null,
+  "status": "rejeitado",
+  "motivo": "tipo Double (type lib) × Long gravado; MinorTicksProp_# é por eixo (família)"
+ },
+ "Screen|AllowZoomChange": {
+  "prj": "ZoomChangePermission",
+  "status": "confirmado",
+  "motivo": "mesmas palavras (zoom/change/permission); enum EPropPermission gravado como inteiro"
+ },
+ "Screen|AllowContextMenu": {
+  "prj": "ContextMenuPermission",
+  "status": "confirmado",
+  "motivo": "mesmas palavras (context menu/permission); enum EPropPermission"
+ },
+ "Screen|ScreenAlignment": {
+  "prj": "PanelAlignment",
+  "status": "confirmado",
+  "motivo": "Screen = Panel no E3 (arquivo Panel.e3); enum EPanelAlignment"
+ },
+ "Viewer|ScreenAlignment": {
+  "prj": "PanelAlignment",
+  "status": "confirmado",
+  "motivo": "idem Screen"
+ },
+ "Screen|GradientStyle": {
+  "prj": null,
+  "status": "rejeitado",
+  "motivo": "HasGradStyle é flag booleana 'tem gradiente'; GradientStyle é enum"
+ },
+ "IODriver|WriteFeedbackMode": {
+  "prj": "WriteMode",
+  "status": "inconclusivo",
+  "motivo": "único escalar gravado sem par (WriteSyncMode já é igual); manual descreve confirmação de escrita; a confirmar"
+ },
+ "UaDriver|EndpointURL": {
+  "prj": "URL",
+  "status": "confirmado",
+  "motivo": "String; URL do servidor OPC UA"
+ },
+ "UaDriver|UserName": {
+  "prj": "User",
+  "status": "confirmado",
+  "motivo": "String; usuário"
+ },
+ "IOTag|EnableScaling": {
+  "prj": "Scaling",
+  "status": "confirmado",
+  "motivo": "flag de escala; mesmos termos"
+ },
+ "IOBlockElement|EnableScaling": {
+  "prj": "Scaling",
+  "status": "confirmado",
+  "motivo": "idem IOTag"
+ },
+ "Hist|UseTagQuality": {
+  "prj": "UseQualityTag",
+  "status": "confirmado",
+  "motivo": "mesmas palavras em outra ordem"
+ },
+ "AlarmServer|SuppressedAlarmsLogging": {
+  "prj": "LoggingAlarmsSuppressed",
+  "status": "confirmado",
+  "motivo": "mesmas palavras em outra ordem"
+ },
+ "DigitalAlarm|DigitalLimit": {
+  "prj": "Limit",
+  "status": "confirmado",
+  "motivo": "prefixo Digital da interface do alarme digital"
+ },
+ "DigitalAlarm|DigitalMessageText": {
+  "prj": "Message",
+  "status": "confirmado",
+  "motivo": "prefixo Digital"
+ },
+ "DigitalAlarm|DigitalSeverity": {
+  "prj": "Severity",
+  "status": "confirmado",
+  "motivo": "prefixo Digital"
+ },
+ "DigitalAlarm|DigitalAckRequired": {
+  "prj": "Ack",
+  "status": "confirmado",
+  "motivo": "prefixo Digital; Ack = AckRequired"
+ },
+ "AnalogLevelAlarm|LevelDeadBand": {
+  "prj": "DeadBand",
+  "status": "confirmado",
+  "motivo": "banda morta do alarme de nível"
+ },
+ "E3Browser|AllowRowResize": {
+  "prj": "RowResize",
+  "status": "confirmado",
+  "motivo": "mesmos termos"
+ },
+ "DrawString|KeepFormatWhenEditing": {
+  "prj": "KeepFormat",
+  "status": "confirmado",
+  "motivo": "mesmos termos"
+ },
+ "DBSqlConnection|Password": {
+  "prj": "_Pwd",
+  "status": "confirmado",
+  "motivo": "Pwd = Password (valor mascarado nas saídas)"
+ },
+ "DBSqlConnection|CustomConnectionString": {
+  "prj": "_ConnString",
+  "status": "confirmado",
+  "motivo": "string de conexão"
+ },
+ "DBSqlConnection|UseCustomConnectionString": {
+  "prj": "_UseConnString",
+  "status": "confirmado",
+  "motivo": "flag que habilita a string de conexão"
+ },
+ "AnalogLevelAlarm|LoLoAckRequired": {
+  "prj": "LoLo.Ack",
+  "status": "confirmado",
+  "motivo": "mesmo padrão já confirmado em LoLo/HiHi (Xx + MessageText/AckRequired = Xx.Message/Xx.Ack)"
+ },
+ "AnalogLevelAlarm|LoAckRequired": {
+  "prj": "Lo.Ack",
+  "status": "confirmado",
+  "motivo": "mesmo padrão já confirmado em LoLo/HiHi (Xx + MessageText/AckRequired = Xx.Message/Xx.Ack)"
+ },
+ "AnalogLevelAlarm|HiAckRequired": {
+  "prj": "Hi.Ack",
+  "status": "confirmado",
+  "motivo": "mesmo padrão já confirmado em LoLo/HiHi (Xx + MessageText/AckRequired = Xx.Message/Xx.Ack)"
+ },
+ "AnalogLevelAlarm|HiHiAckRequired": {
+  "prj": "HiHi.Ack",
+  "status": "confirmado",
+  "motivo": "mesmo padrão já confirmado em LoLo/HiHi (Xx + MessageText/AckRequired = Xx.Message/Xx.Ack)"
+ },
+ "AnalogLevelAlarm|LoMessageText": {
+  "prj": "Lo.Message",
+  "status": "confirmado",
+  "motivo": "mesmo padrão já confirmado em LoLo/HiHi (Xx + MessageText/AckRequired = Xx.Message/Xx.Ack)"
+ },
+ "AnalogLevelAlarm|HiMessageText": {
+  "prj": "Hi.Message",
+  "status": "confirmado",
+  "motivo": "mesmo padrão já confirmado em LoLo/HiHi (Xx + MessageText/AckRequired = Xx.Message/Xx.Ack)"
+ },
+ "E3Alarm|ConnectionStatusBarColor": {
+  "prj": "ConnStatusColor",
+  "status": "confirmado",
+  "motivo": "valor mais comum gravado (0 = preto) = padrão do manual (black RGB(0,0,0))"
+ },
+ "E3Chart|CursorSearchStyle": {
+  "prj": "SearchStyle",
+  "status": "confirmado",
+  "motivo": "mesmos termos; enum SearchStyles gravado como inteiro"
+ }
+}
