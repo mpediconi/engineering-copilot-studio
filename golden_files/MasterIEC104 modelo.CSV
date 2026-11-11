@@ -1,0 +1,7 @@
+ObjectType;Name;AdviseType;AllowRead;AllowWrite;DocString;N1;N2;N3;N4;PathContainer;PathName
+IOTag;Digital;1;True;False;synthetic example;0;0;1;1;Plant.Communication.IEC104Master;Plant.Communication.IEC104Master.Digital
+IOTag;Float;1;True;False;synthetic example;0;0;13;2;Plant.Communication.IEC104Master;Plant.Communication.IEC104Master.Float
+IOTag;Total;1;True;False;synthetic example;0;0;15;3;Plant.Communication.IEC104Master;Plant.Communication.IEC104Master.Total
+IOTag;Command.Select;1;False;False;synthetic example;0;10;45;100;Plant.Communication.IEC104Master;Plant.Communication.IEC104Master.Command.Select
+IOTag;Command.Execute;1;False;False;synthetic example;0;11;45;100;Plant.Communication.IEC104Master;Plant.Communication.IEC104Master.Command.Execute
+IOTag;Setpoint;1;False;False;synthetic example;0;11;50;101;Plant.Communication.IEC104Master;Plant.Communication.IEC104Master.Setpoint

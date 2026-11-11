@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "engineering-copilot-studio"
+version = "0.1.0"
+description = "Desktop workbench for IEC 104, API gateways, E3 project audits and extensible engineering skills."
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+dependencies = ["PySide6>=6.7", "openpyxl>=3.1", "olefile>=0.47"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[project.scripts]
+engineering-copilot-studio = "engineering_copilot_studio.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+engineering_copilot_studio = [
+    "seeds/config/*.json",
+    "seeds/config/*.md",
+    "seeds/config/profiles/*.json",
+    "seeds/golden_files/*.CSV",
+    "seeds/golden_files/*.csv",
+    "seeds/golden_files/*.md",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 140
+extend-exclude = ["src/iec104_csv_studio", "src/engineering_copilot_studio/e3/e3reader.py"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "RUF"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/engineering_copilot_studio/ui.py" = ["BLE001"]

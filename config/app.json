@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "profiles_directory": "profiles",
+  "golden_files_directory": "../golden_files",
+  "default_profile": "PROJECT_PROFILE"
+}

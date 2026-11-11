@@ -1,0 +1,33 @@
+{
+  "id": "PROFILE_V2",
+  "version": 1,
+  "description": "Profile IEC104 editável PROFILE_V2.",
+  "advise_type": "0",
+  "master_monitor_allow_read": "True",
+  "master_monitor_allow_write": "False",
+  "master_command_allow_read": "False",
+  "master_command_allow_write": "False",
+  "slave_monitor_allow_read": "False",
+  "slave_monitor_allow_write": "True",
+  "block_b2": "6",
+  "block_size": "4",
+  "element_order": [
+    "CMD",
+    "SE",
+    "COT",
+    "QU"
+  ],
+  "high_priority_asdus": [
+    "2"
+  ],
+  "master_monitor_n2_by_asdu": {
+    "2": "6",
+    "13": "5",
+    "14": "5",
+    "15": "6"
+  },
+  "master_command_phase": "EXECUTE",
+  "master_setpoint_phase": "EXECUTE",
+  "master_bitstring_phase": "EXECUTE",
+  "notes": []
+}
