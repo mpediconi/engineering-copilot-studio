@@ -12,6 +12,8 @@ from PySide6.QtCore import QObject, QRunnable, Qt, QThreadPool, Signal
 from PySide6.QtWidgets import (
     QApplication,
     QComboBox,
+    QDialog,
+    QDialogButtonBox,
     QFileDialog,
     QFormLayout,
     QFrame,
@@ -260,6 +262,10 @@ class IECPage(QWidget):
         self.strategy = QComboBox()
         for item in ("PROFILE_DEFAULT", "EXECUTE", "SELECT", "SELECT_EXECUTE", "REFERENCE_PRESERVING"):
             self.strategy.addItem(item.replace("_", " ").title(), item)
+        self.strategy.setEnabled(False)
+        self.direction.currentIndexChanged.connect(
+            lambda: self.strategy.setEnabled(self.direction.currentData() == "SLAVE_TO_MASTER")
+        )
         form.addRow("Comando no Master", self.strategy)
         layout.addLayout(form)
         actions = QHBoxLayout()
@@ -457,11 +463,17 @@ class IECPage(QWidget):
         actions = QHBoxLayout()
         import_button = QPushButton("Adicionar CSV")
         import_button.clicked.connect(self.import_golden)
+        edit_button = QPushButton("Editar CSV")
+        edit_button.clicked.connect(self.edit_golden)
+        remove_button = QPushButton("Remover CSV")
+        remove_button.clicked.connect(self.remove_golden)
         self.golden_role = QComboBox()
         self.golden_role.addItems(["MASTER", "SLAVE"])
         assign_button = QPushButton("Atribuir ao papel")
         assign_button.clicked.connect(self.assign_golden)
         actions.addWidget(import_button)
+        actions.addWidget(edit_button)
+        actions.addWidget(remove_button)
         actions.addWidget(self.golden_role)
         actions.addWidget(assign_button)
         actions.addStretch()
@@ -477,6 +489,9 @@ class IECPage(QWidget):
         layout.addWidget(save_button, alignment=Qt.AlignmentFlag.AlignLeft)
         self.reference_result = result_box()
         layout.addWidget(self.reference_result, 1)
+        types_button = QPushButton("Descobrir ObjectTypes do CSV selecionado")
+        types_button.clicked.connect(self.show_object_types)
+        layout.addWidget(types_button, alignment=Qt.AlignmentFlag.AlignLeft)
         self.tabs.addTab(page, "Dados de referência")
         self.refresh_reference()
 
@@ -501,6 +516,78 @@ class IECPage(QWidget):
             return
         shutil.copy2(path, target)
         self.refresh_reference()
+
+    def _selected_golden_path(self) -> Path | None:
+        item = self.golden_list.currentItem()
+        if item is None:
+            self.host.show_error("Selecione um Golden File.")
+            return None
+        from iec104_csv_studio.infrastructure.application_paths import golden_files_directory
+
+        return golden_files_directory() / item.text()
+
+    def edit_golden(self) -> None:
+        path = self._selected_golden_path()
+        if path is None:
+            return
+        dialog = QDialog(self)
+        dialog.setWindowTitle(f"Editar {path.name}")
+        dialog.resize(1000, 680)
+        layout = QVBoxLayout(dialog)
+        layout.addWidget(QLabel("Edite a cópia local. Salvar substitui somente este Golden File."))
+        editor = QPlainTextEdit()
+        try:
+            editor.setPlainText(path.read_text(encoding="utf-8-sig"))
+        except (OSError, UnicodeError) as exc:
+            self.host.show_error(str(exc))
+            return
+        layout.addWidget(editor, 1)
+        buttons = QDialogButtonBox(
+            QDialogButtonBox.StandardButton.Save | QDialogButtonBox.StandardButton.Cancel
+        )
+        buttons.accepted.connect(dialog.accept)
+        buttons.rejected.connect(dialog.reject)
+        layout.addWidget(buttons)
+        if dialog.exec() != QDialog.DialogCode.Accepted:
+            return
+        temporary = path.with_name(path.name + ".tmp")
+        try:
+            temporary.write_text(editor.toPlainText(), encoding="utf-8", newline="")
+            from iec104_csv_studio.infrastructure.e3_csv_reader import read_e3_csv
+
+            read_e3_csv(temporary)
+            temporary.replace(path)
+            self.refresh_reference()
+            self.host.notice("Golden File salvo.")
+        except Exception as exc:
+            temporary.unlink(missing_ok=True)
+            self.host.show_error(str(exc))
+
+    def remove_golden(self) -> None:
+        path = self._selected_golden_path()
+        if path is None:
+            return
+        if QMessageBox.question(
+            self, "Remover Golden File?", f"Remover a cópia local {path.name}?"
+        ) != QMessageBox.StandardButton.Yes:
+            return
+        try:
+            converter.data_setup().forget_golden(path.name)
+            path.unlink()
+            self.refresh_reference()
+            self.host.notice("Golden File removido.")
+        except Exception as exc:
+            self.host.show_error(str(exc))
+
+    def show_object_types(self) -> None:
+        path = self._selected_golden_path()
+        if path is None:
+            return
+        self.host.run_task(
+            "Descobrindo ObjectTypes",
+            partial(converter.analysis, str(path), "PROJECT_PROFILE"),
+            lambda result: self.reference_result.setPlainText(pretty(result["tipos_objeto"])),
+        )
 
     def assign_golden(self) -> None:
         item = self.golden_list.currentItem()

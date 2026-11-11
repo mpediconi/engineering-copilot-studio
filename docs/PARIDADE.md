@@ -9,7 +9,7 @@
 | Lista de aquisição | IEC 104 → Listas de pontos | XLSX a partir do Golden Master |
 | Lista de distribuição | IEC 104 → Listas de pontos | XLSX a partir do Golden Slave |
 | Perfis de regra | IEC 104 → Perfis | CRUD via ProfileStore |
-| Golden Files | IEC 104 → Dados de referência | Atribuição por papel e inclusão de CSV |
+| Golden Files | IEC 104 → Dados de referência | Inclusão, edição, remoção e atribuição por papel |
 | Colunas padrão e ObjectTypes | IEC 104 → Dados de referência; Análise → tipos_objeto | Configuração e catálogo descoberto |
 
 Os serviços de domínio e conversão originais foram mantidos. A nova interface usa esses serviços diretamente; não reproduz a interface QML original. O plano de conversão deve ser gerado antes da exportação e o SHA-256 da origem é revalidado.
