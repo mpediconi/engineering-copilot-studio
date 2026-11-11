@@ -669,7 +669,12 @@ class GatewayPage(QWidget):
         self.table.insertRow(row)
         defaults = (f"PONTO_{row+1}", "", "13", "1", str(row + 1), "MONITORING", "1", "", "", "")
         for column, value in enumerate(defaults):
-            self.table.setItem(row, column, QTableWidgetItem(value))
+            if column == 5:
+                direction = QComboBox()
+                direction.addItems(["MONITORING", "COMMAND"])
+                self.table.setCellWidget(row, column, direction)
+            else:
+                self.table.setItem(row, column, QTableWidgetItem(value))
 
     def remove_point(self) -> None:
         row = self.table.currentRow()
@@ -685,8 +690,12 @@ class GatewayPage(QWidget):
         points = []
         for row in range(self.table.rowCount()):
             values = [
-                self.table.item(row, column).text().strip()
-                if self.table.item(row, column) else ""
+                self.table.cellWidget(row, column).currentText().strip()
+                if isinstance(self.table.cellWidget(row, column), QComboBox)
+                else (
+                    self.table.item(row, column).text().strip()
+                    if self.table.item(row, column) else ""
+                )
                 for column in range(len(self.HEADERS))
             ]
             points.append(GatewayPoint(

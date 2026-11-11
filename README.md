@@ -21,7 +21,7 @@ Requer Python 3.12 ou superior:
     .\.venv\Scripts\python.exe -m pip install -e .
     .\.venv\Scripts\engineering-copilot-studio.exe
 
-Na máquina de desenvolvimento, iniciar.ps1 encontra o Python 3.13 instalado e inicia a aplicação quando as dependências já estão disponíveis. A interface salva perfis, Golden Files e skills no diretório de dados do usuário.
+Nesta máquina, abra iniciar.bat para iniciar a interface com o ambiente virtual já preparado. iniciar.ps1 também encontra o Python 3.13 instalado quando as dependências estão disponíveis. A interface salva perfis, Golden Files e skills no diretório de dados do usuário.
 
 ## Organização
 

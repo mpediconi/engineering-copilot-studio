@@ -16,6 +16,10 @@ def test_navigation_and_built_in_skills() -> None:
     try:
         assert window.stack.count() == 5
         assert window.iec_page.tabs.count() == 5
+        gateway = window.stack.widget(2)
+        gateway.table.item(0, 1).setText("plant.power")
+        assert gateway.points()[0].direction == "MONITORING"
+        assert gateway.points()[0].json_path == "plant.power"
         window.navigation.setCurrentRow(4)
         assert window.stack.currentIndex() == 4
         assert window.stack.currentWidget().list.count() >= 10
