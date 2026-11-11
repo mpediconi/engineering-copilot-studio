@@ -113,6 +113,20 @@ def comp_disc(o, ordem):
     return '#%d' % ordem
 
 
+def itens_do_no(n):
+    """Lista todos os registros do nó, incluindo componentes anexados, com caminho identificável."""
+    cont = collections.Counter()
+    itens = []
+    for o in n.objects:
+        caminho = o['opath']
+        if o['kind'] == -1:
+            chave = (o.get('owner'), o['class'])
+            caminho += ' [' + comp_disc(o, cont[chave]) + ']'
+            cont[chave] += 1
+        itens.append({'objeto': caminho, 'classe': o['class']})
+    return itens
+
+
 class NoLido:
     """objetos de um no, prontos para alinhar/comparar."""
 
@@ -460,11 +474,15 @@ def comparar_projetos(caminho_a, caminho_b, log=print):
     for path in nb:
         if path not in na:
             n = nb[path]; pb.load_node(n)
-            res['nos_adicionados'].append({'no': path, 'papel': papel(n, n.objects[0]['class'] if n.objects else ''), 'objetos': len(n.objects)}); pb.free_node(n)
+            itens = itens_do_no(n)
+            res['nos_adicionados'].append({'no': path, 'papel': papel(n, n.objects[0]['class'] if n.objects else ''),
+                                           'objetos': len(n.objects), 'itens': itens}); pb.free_node(n)
     for path in na:
         if path not in nb:
             n = na[path]; pa.load_node(n)
-            res['nos_removidos'].append({'no': path, 'papel': papel(n, n.objects[0]['class'] if n.objects else ''), 'objetos': len(n.objects)}); pa.free_node(n)
+            itens = itens_do_no(n)
+            res['nos_removidos'].append({'no': path, 'papel': papel(n, n.objects[0]['class'] if n.objects else ''),
+                                         'objetos': len(n.objects), 'itens': itens}); pa.free_node(n)
     for path in nb:
         if path not in na: continue
         a, b = na[path], nb[path]
@@ -515,8 +533,14 @@ def relatorio_md(res, cm=False):
     if not r['itens_alterados'] and not res['nos']:
         w('**Nenhuma alteração encontrada.**'); return '\n'.join(L) + '\n'
     w('## Projeto novo sofreu alterações:\n')
-    for n in res['nos_adicionados']: w('- **Adicionado:** %s `%s` (%d objetos)' % (n['papel'], n['no'], n['objetos']))
-    for n in res['nos_removidos']: w('- **Removido:** %s `%s` (%d objetos)' % (n['papel'], n['no'], n['objetos']))
+    for n in res['nos_adicionados']:
+        w('- **Adicionado:** %s `%s` (%d objetos)' % (n['papel'], n['no'], n['objetos']))
+        for x in n.get('itens', []):
+            w('  - Objeto adicionado: `%s` (%s)' % (x['objeto'], x['classe']))
+    for n in res['nos_removidos']:
+        w('- **Removido:** %s `%s` (%d objetos)' % (n['papel'], n['no'], n['objetos']))
+        for x in n.get('itens', []):
+            w('  - Objeto removido: `%s` (%s)' % (x['objeto'], x['classe']))
     if res['nos_adicionados'] or res['nos_removidos']: w('')
     for n in res['nos']:
         w('### %s' % titulo_no(n)); w('`%s`\n' % n['no'])
@@ -561,8 +585,18 @@ def linhas_xlsx(res):
     """-> (adicionados, removidos, modificados): listas de linhas (uma por item)."""
     proj = os.path.basename(res['meta']['novo'])
     add, rem, mod = [], [], []
-    for n in res['nos_adicionados']: add.append([proj, n['papel'], n['no'], '(nó inteiro)', '', '%d objetos' % n['objetos']])
-    for n in res['nos_removidos']: rem.append([proj, n['papel'], n['no'], '(nó inteiro)', '', '%d objetos' % n['objetos']])
+    for n in res['nos_adicionados']:
+        if n.get('itens'):
+            add.extend([[proj, n['papel'], n['no'], x['objeto'], x['classe'], 'Nó adicionado completo']
+                        for x in n['itens']])
+        else:
+            add.append([proj, n['papel'], n['no'], '(nó inteiro)', '', '%d objetos' % n['objetos']])
+    for n in res['nos_removidos']:
+        if n.get('itens'):
+            rem.extend([[proj, n['papel'], n['no'], x['objeto'], x['classe'], 'Nó removido completo']
+                        for x in n['itens']])
+        else:
+            rem.append([proj, n['papel'], n['no'], '(nó inteiro)', '', '%d objetos' % n['objetos']])
     for n in res['nos']:
         base = [proj, n['papel'], n['no']]
         if n.get('recurso_alterado'): mod.append(base + ['(recurso)', '', 'Recurso', 'Conteúdo', '', 'alterado', '']); continue
